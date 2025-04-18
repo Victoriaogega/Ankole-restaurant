@@ -1,0 +1,131 @@
+body{
+    margin: -0%;
+}
+.fadhile{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(https://cdn.prod.website-files.com/65aa1f79e2380ad0548de567/67e3e65e75e1622a029e77b9_%40ankolegrill%20Live%2042.jpg);
+    background-size: cover;
+    height: 221vh;
+    width: 98.5vw;
+   color: white;
+   text-align: center;
+   font-size: 250%;
+}
+.fadhile p{
+    padding-top: 19%;
+}
+.navigation {
+    position: absolute;
+    left: 29%;
+    display: flex;
+    gap: 4%;
+    font-size: 100%;
+    top: 610px;
+    width: 39%;
+    background-color: black;
+    padding-left: 2%;
+    height: 40px;
+    padding-top: 1%;
+    border-radius: 50px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+.fa-bars {
+    color: gray;
+}
+
+.fa-clock {
+    color: gray;
+}
+
+#reservation {
+    background-color: grey;
+    height: 3vh;
+    padding: 1%;
+    border-radius: 100px;
+    margin-top: -1%;
+
+}
+
+#home {
+    background-color: rgb(19, 18, 18);
+    height: 3vh;
+    padding: 1%;
+    border-radius: 15px;
+    margin-top: -1%;
+
+
+}
+
+.time {
+    position: relative;
+    display: inline-block;
+}
+
+.time_drop {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 600%;
+    height: 540%;
+    top: -630%;
+    padding-left: 6vh;
+    padding-right: 20vh;
+    border-radius: 3vh;
+    padding-top: 2vh;
+}
+
+.time_drop p {
+    font-size: 70%;
+}
+
+.time_drop h3 {
+    font-size: 100%;
+}
+
+.time_drop span {
+    color: black;
+}
+
+.time:hover .time_drop {
+    display: block;
+}
+
+.ankole_logo img {
+    position: absolute;
+    z-index: 1;
+    width: 10vw;
+    height: 22vh;
+    left: 45%;
+    padding-top: 2%;
+}
+
+.bars {
+    position: relative;
+    display: inline-block;
+}
+
+.bars_drop {
+    position: absolute;
+    display: none;
+    color: white;
+    background-color: black;
+    width: 800%;
+    top: -370%;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    border-radius: 2vh;
+    z-index: 1;
+}
+
+.bars:hover .bars_drop {
+    display: block;
+}
+
+.bars_drop p {
+    border-bottom: 1px solid gray;
+}
+

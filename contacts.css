@@ -1,0 +1,520 @@
+@font-face {
+    font-family: american;
+    src: url(Type\ Machine.ttf);
+}
+body {
+    margin: 0%;
+
+}
+
+.background img {
+    position: relative;
+    height: 25vh;
+    width: 30vh;
+    left: 45%;
+    color: grey;
+
+}
+
+.restaurant_branches {
+    display: flex;
+    gap: 2%;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+
+.kilimani {
+    border: 1px solid white;
+    padding-top: 0.4%;
+    padding-left: 3%;
+   width: 50vh;
+    font-size: 15.8px;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 1%;
+}
+.restaurant_branches h1{
+font-family: american;
+font-size:150% ;
+font-weight: 100;
+line-height: 1.5rem;
+
+}
+.restaurant_branches p{
+    font-family: sans-serif;
+    line-height: 0.5rem;
+    margin-top: 0%;
+}
+
+.kitisuru {
+    border: 1px solid white;
+    padding-top: 0.5%;
+    padding-left: 3%;
+    font-weight: 600;
+    color: white;
+    height: 70%;
+    padding-bottom: 3%;
+    width: 50vh;
+  
+}
+
+.background {
+    background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/66a76f14c410437afe19cec1_ankolegrill_Kitisuru%20Night2.webp);
+    height: 673px;
+    width: 100%;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+}
+.navigation {
+    position: absolute;
+    left: 29%;
+    display: flex;
+    gap: 4%;
+    font-size: 100%;
+    top: 580px;
+    width: 39%;
+    background-color: black;
+    padding-left: 2%;
+    height: 40px;
+    padding-top: 1%;
+    border-radius: 50px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+.fa-bars {
+    color: gray;
+}
+
+.fa-clock {
+    color: gray;
+}
+
+#reservation {
+    background-color: grey;
+    height: 3vh;
+    padding: 1%;
+    border-radius: 100px;
+    margin-top: -1%;
+
+}
+
+#home {
+    background-color: rgb(19, 18, 18);
+    height: 3vh;
+    padding: 1%;
+    border-radius: 15px;
+    margin-top: -1%;
+
+
+}
+
+.time {
+    position: relative;
+    display: inline-block;
+}
+
+.time_drop {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 600%;
+    height: 540%;
+    top: -630%;
+    padding-left: 6vh;
+    padding-right: 20vh;
+    border-radius: 3vh;
+    padding-top: 2vh;
+}
+
+.time_drop p {
+    font-size: 70%;
+}
+
+.time_drop h3 {
+    font-size: 100%;
+}
+
+.time_drop span {
+    color: black;
+}
+
+.time:hover .time_drop {
+    display: block;
+}
+
+.ankole_logo img {
+    position: absolute;
+    z-index: 1;
+    width: 10vw;
+    height: 22vh;
+    left: 45%;
+    padding-top: 2%;
+}
+
+.bars {
+    position: relative;
+    display: inline-block;
+}
+
+.bars_drop {
+    position: absolute;
+    display: none;
+    color: white;
+    background-color: black;
+    width: 800%;
+    top: -370%;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    border-radius: 2vh;
+    z-index: 1;
+}
+
+.bars:hover .bars_drop {
+    display: block;
+}
+
+.bars_drop p {
+    border-bottom: 1px solid gray;
+}
+@media screen and (max-width: 500px) {
+   
+    .contact_body {
+        margin: 0%;
+
+    }
+
+    .background img {
+        position: relative;
+        height: 20vh;
+        width: 20vh;
+        left: 23%;
+        color: grey;
+        padding-top: 10%;
+    }
+
+    .restaurant_branches {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+
+    .kilimani {
+        border: 1px solid white;
+        padding-top: 1%;
+        width: 70%;
+        margin-left: 3%;
+        padding-right: 10%;
+        font-size: 70%;
+        font-weight: 900%;
+        color: white;
+        font-family: sans-serif;
+        font-weight: bolder;
+        padding-bottom: 3%;
+        height: 80%;
+    }
+
+    .kitisuru {
+        border: 1px solid white;
+        padding-top: 1%;
+        margin-left: 3%;
+        padding-right: 10%;
+        font-size: 70%;
+        font-weight: bolder;
+        color: white;
+        font-family: sans-serif;
+        height: 60%;
+        width: 70%;
+        padding-bottom: 3%;
+        margin-bottom: 7%;
+    }
+
+    .background {
+        background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/66a76f14c410437afe19cec1_ankolegrill_Kitisuru%20Night2.webp);
+        height: 800px;
+        width: 90%;
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+    }
+    .navigation {
+        position: absolute;
+        left: 1%;
+        display: flex;
+        gap: 3%;
+        font-size: 50%;
+        top: 730px;
+        width: 59%;
+        background-color: black;
+        border: 1px solid white;
+        margin-left: 10%;
+        height: 30px;
+        padding-top: 3%;
+        border-radius: 50px;
+    }
+
+    .navigation a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .fa-bars {
+        color: gray;
+    }
+
+    .fa-clock {
+        color: gray;
+    }
+
+    #reservation {
+        background-color: grey;
+        height: 1vh;
+        padding-top: 1%;
+        border-radius: 10px;
+        margin-top: -1%;
+
+    }
+
+    #home {
+        background-color: rgb(19, 18, 18);
+        height: 3vh;
+        padding: 1%;
+        border-radius: 15px;
+        margin-top: -1%;
+
+
+    }
+
+    .time {
+        position: relative;
+        display: inline-block;
+    }
+
+    .time_drop {
+        display: none;
+        position: absolute;
+        background-color: white;
+        width: 600%;
+        height: 540%;
+        top: -630%;
+        padding-left: 6vh;
+        padding-right: 20vh;
+        border-radius: 3vh;
+        padding-top: 2vh;
+    }
+
+    .time_drop p {
+        font-size: 70%;
+    }
+
+    .time_drop h3 {
+        font-size: 100%;
+    }
+
+    .time_drop span {
+        color: black;
+    }
+
+    .time:hover .time_drop {
+        display: block;
+    }
+
+
+    .bars {
+        position: relative;
+        display: inline-block;
+    }
+
+    .bars_drop {
+        position: absolute;
+        display: none;
+        color: white;
+        background-color: black;
+        width: 800%;
+        top: -370%;
+        padding-left: 5vh;
+        padding-right: 5vh;
+        border-radius: 2vh;
+        z-index: 1;
+    }
+
+    .bars:hover .bars_drop {
+        display: block;
+    }
+
+    .bars_drop p {
+        border-bottom: 1px solid gray;
+    }
+
+}
+@media screen and (min-width: 501px) and (max-width:1000px){
+
+    .contact_body {
+        margin: 0%;
+   
+    }
+   
+    .background img {
+        position: relative;
+        height: 18vh;
+        width: 18vh;
+        left: 35%;
+        color: grey;
+        padding-top: 5%;
+    }
+   
+    .restaurant_branches {
+        display: flex;
+        gap: 2%;
+        margin-left: 18%;
+        margin-top: 29%;
+    }
+   
+    .kilimani {
+        border: 1px solid white;
+        padding-top: 1%;
+        padding-left: 3%;
+        padding-right: 10%;
+        font-size: 80%;
+        font-weight: 900%;
+        color: white;
+        font-family: sans-serif;
+        font-weight: bolder;
+        padding-bottom: 3%;
+       
+    }
+   
+    .kitisuru {
+        border: 1px solid white;
+        padding-top: 2%;
+        padding-left: 3%;
+        padding-right: 10%;
+        font-size: 80%;
+        font-weight: bolder;
+        color: white;
+        font-family: sans-serif;
+        height: 70%;
+        padding-bottom: 3%;
+    }
+   
+    .background {
+        background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/66a76f14c410437afe19cec1_ankolegrill_Kitisuru%20Night2.webp);
+        height: 1306px;
+        width: 100%;
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+    }
+    .navigation {
+        position: absolute;
+        left: 29%;
+        display: flex;
+        gap: 4%;
+        font-size: 100%;
+        top: 1200px;
+        width: 60%;
+        background-color: rgb(8, 8, 8);
+        padding-left: 2%;
+        height: 40px;
+        padding-top: 1%;
+        border-radius: 50px;
+       margin-left: -90px;
+    }
+   
+    .navigation a {
+        text-decoration: none;
+        color: white;
+    }
+   
+    .fa-bars {
+        color: gray;
+    }
+   
+    .fa-clock {
+        color: gray;
+    }
+   
+    #reservation {
+        background-color: grey;
+        height: 1vh;
+        padding: 1%;
+        border-radius: 100px;
+        margin-top: 0.2%;
+   
+    }
+   
+    #home {
+        background-color: rgb(19, 18, 18);
+        height: 1.7vh;
+        padding: 1%;
+        border-radius: 15px;
+        margin-top: -1%;
+   
+   
+    }
+   
+    .time {
+        position: relative;
+        display: inline-block;
+    }
+   
+    .time_drop {
+        display: none;
+        position: absolute;
+        background-color: white;
+        width: 600%;
+        height: 540%;
+        top: -630%;
+        padding-left: 6vh;
+        padding-right: 20vh;
+        border-radius: 3vh;
+        padding-top: 2vh;
+    }
+   
+    .time_drop p {
+        font-size: 70%;
+    }
+   
+    .time_drop h3 {
+        font-size: 100%;
+    }
+   
+    .time_drop span {
+        color: black;
+    }
+   
+    .time:hover .time_drop {
+        display: block;
+    }
+   
+    .bars {
+        position: relative;
+        display: inline-block;
+    }
+   
+    .bars_drop {
+        position: absolute;
+        display: none;
+        color: white;
+        background-color: black;
+        width: 800%;
+        top: -370%;
+        padding-left: 5vh;
+        padding-right: 5vh;
+        border-radius: 2vh;
+        z-index: 1;
+    }
+   
+    .bars:hover .bars_drop {
+        display: block;
+    }
+   
+    .bars_drop p {
+        border-bottom: 1px solid gray;
+    }
+    
+}

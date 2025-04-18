@@ -1,0 +1,2419 @@
+ .home_page {
+     font-family: poppins;
+     margin: 0%;
+ }
+
+ .slide_container {
+     position: relative;
+     max-width: 100%;
+     height: 100%;
+ }
+
+ .ankara_art {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     opacity: 0;
+     animation: fade 25s infinite ease-in-out;
+ }
+
+ .ankara_art:nth-child(1) {
+     animation-delay: 0s;
+ }
+
+ .ankara_art:nth-child(2) {
+     animation-delay: 5s;
+ }
+
+ .ankara_art:nth-child(3) {
+     animation-delay: 10s;
+ }
+
+ .ankara_art:nth-child(4) {
+     animation-delay: 15s;
+ }
+
+ .ankara_art:nth-child(5) {
+     animation-delay: 20s;
+ }
+
+ .ankara_art img {
+     width: 100vw;
+     height: 99vh;
+     object-fit: cover;
+     overflow: hidden;
+ }
+
+ @keyframes fade {
+     0% {
+         opacity: 0;
+     }
+
+     10% {
+         opacity: 1;
+     }
+
+     30% {
+         opacity: 1;
+     }
+
+     40% {
+         opacity: 0;
+     }
+
+     100% {
+         opacity: 0;
+     }
+ }
+
+
+ .welcome {
+     position: absolute;
+     color: rgb(105, 101, 101);
+     font-size: 250%;
+     top: 25vh;
+     left: 41%;
+ }
+
+ .experience {
+     position: absolute;
+     color: rgb(105, 101, 101);
+     font-size: 250%;
+     top: 25vh;
+     left: 39%;
+ }
+
+ .taste {
+     position: absolute;
+     color: rgb(105, 101, 101);
+     font-size: 250%;
+     top: 28vh;
+     left: 45%;
+ }
+
+ .savour{
+     position: absolute;
+     color: rgb(105, 101, 101);
+     font-size: 250%;
+     top: 25vh;
+     left: 43%;
+ }
+
+ .discover {
+     position: absolute;
+     color: rgb(105, 101, 101);
+     font-size: 250%;
+     top: 25vh;
+     left: 43%;
+ }
+
+ .navigation {
+     position: absolute;
+     left: 29%;
+     display: flex;
+     gap: 4%;
+     font-size: 100%;
+     top: 580px;
+     width: 39%;
+     background-color: black;
+     padding-left: 2%;
+     height: 40px;
+     padding-top: 1%;
+     border-radius: 50px;
+ }
+
+ .navigation a {
+     text-decoration: none;
+     color: white;
+ }
+
+ .fa-bars {
+     color: gray;
+ }
+
+ .fa-clock {
+     color: gray;
+ }
+
+ #reservation {
+     background-color: grey;
+     height: 3vh;
+     padding: 1%;
+     border-radius: 100px;
+     margin-top: -1%;
+
+ }
+
+ #home {
+     background-color: rgb(19, 18, 18);
+     height: 3vh;
+     padding: 1%;
+     border-radius: 15px;
+     margin-top: -1%;
+
+
+ }
+
+ .time {
+     position: relative;
+     display: inline-block;
+ }
+
+ .time_drop {
+     display: none;
+     position: absolute;
+     background-color: white;
+     width: 600%;
+     height: 540%;
+     top: -630%;
+     padding-left: 6vh;
+     padding-right: 20vh;
+     border-radius: 3vh;
+     padding-top: 2vh;
+ }
+
+ .time_drop p {
+     font-size: 70%;
+ }
+
+ .time_drop h3 {
+     font-size: 100%;
+ }
+
+ .time_drop span {
+     color: black;
+ }
+
+ .time:hover .time_drop {
+     display: block;
+ }
+
+ .ankole_logo img {
+     position: absolute;
+     z-index: 1;
+     width: 10vw;
+     height: 22vh;
+     left: 45%;
+     padding-top: 2%;
+ }
+
+ .bars {
+     position: relative;
+     display: inline-block;
+ }
+
+ .bars_drop {
+     position: absolute;
+     display: none;
+     color: white;
+     background-color: black;
+     width: 800%;
+     top: -370%;
+     padding-left: 5vh;
+     padding-right: 5vh;
+     border-radius: 2vh;
+     z-index: 1;
+ }
+
+ .bars:hover .bars_drop {
+     display: block;
+ }
+
+ .bars_drop p {
+     border-bottom: 1px solid gray;
+ }
+
+ .socials {
+     position: absolute;
+
+
+ }
+
+ .fa-instagram {
+     color: red;
+
+ }
+
+ .fa-facebook {
+     color: red;
+ }
+
+ /* contacts */
+ .contact_body {
+     margin: 0%;
+
+ }
+
+ .background img {
+     position: relative;
+     height: 25vh;
+     width: 30vh;
+     left: 45%;
+     color: grey;
+ }
+
+ .restaurant_branches {
+     display: flex;
+     gap: 2%;
+     margin-left: 29%;
+     margin-top: 3%;
+ }
+
+ .kilimani {
+     border: 1px solid white;
+     padding-top: 1%;
+     padding-left: 3%;
+     padding-right: 9%;
+     font-size: 80%;
+     font-weight: 900%;
+     color: white;
+     font-family: sans-serif;
+     font-weight: bolder;
+     padding-bottom: 3%;
+ }
+
+ .kitisuru {
+     border: 1px solid white;
+     padding-top: 2%;
+     padding-left: 3%;
+     padding-right: 9%;
+     font-size: 80%;
+     font-weight: bolder;
+     color: white;
+     font-family: sans-serif;
+     height: 70%;
+     padding-bottom: 3%;
+ }
+
+ .background {
+     background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/66a76f14c410437afe19cec1_ankolegrill_Kitisuru%20Night2.webp);
+     height: 673px;
+     width: 100%;
+     background-size: cover;
+     background-color: rgba(0, 0, 0, 0.5);
+     background-blend-mode: darken;
+ }
+
+ /* menu */
+ .menu_body {
+     margin: 0%;
+ }
+
+ .explore_menu {
+     display: flex;
+ }
+
+ .karibu_kitisuru {
+     background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c300769e92e351d540231f_bg.jpg);
+     background-repeat: no-repeat;
+     width: 100%;
+     background-size: cover;
+     height: 395px;
+     background-color: rgba(0, 0, 0, 0.5);
+     background-blend-mode: darken;
+     padding-top: 18.55%;
+ }
+
+ .karibu_kitisuru span {
+     color: red;
+     font-size: 70%;
+ }
+
+ .karibu_kitisuru h6 {
+     font-size: 250%;
+     color: white;
+     padding-left: 35%;
+     margin-bottom: 2%;
+ }
+
+ .karibu_kitisuru a {
+     font-size: 90%;
+     color: white;
+     text-decoration: none;
+     padding-left: 38%;
+
+ }
+
+ .dicover_kilimani {
+     background-image: url(https://www.apexbusinesspages.com/wp-content/uploads/2019/03/Ankole-Grill-Kilimani.jpg);
+     width: 100%;
+     background-size: cover;
+     height: 395px;
+     background-repeat: no-repeat;
+     background-color: rgba(0, 0, 0, 0.5);
+     background-blend-mode: darken;
+     padding-top: 18.55%;
+ }
+
+ .ankara_logo {
+     position: absolute;
+     top: 10%;
+     left: 38%;
+     height: 23%;
+     width: 23%;
+ }
+
+ .dicover_kilimani span {
+     color: red;
+     font-size: 70%;
+ }
+
+ .dicover_kilimani h6 {
+     font-size: 250%;
+     color: white;
+     padding-left: 40%;
+     margin-bottom: 2%;
+ }
+
+ .dicover_kilimani a {
+     font-size: 90%;
+     color: white;
+     text-decoration: none;
+     padding-left: 42%;
+ }
+
+ .aesthetic_ankara {
+     position: relative;
+ }
+
+ /* menu_contents */
+ .menu_contents {
+     margin: 0%;
+
+ }
+
+ .menu_container {
+     display: flex;
+ }
+
+ .menu span {
+     color: red;
+     font-size: 6vh;
+     padding-left: 33%;
+ }
+
+ .meals a {
+     text-decoration: none;
+     color: white;
+ }
+
+ .meals {
+     margin-bottom: 18%;
+     margin-top: 2%;
+     display: flex;
+     gap: 5%;
+     margin-left: 15%;
+ }
+
+
+ .menu {
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm2ne7oExPeuUzxvPnw3tM5wIgY5mymemId23-q7fCF-vT3ifw);
+     background-size: cover;
+     width: 70%;
+     height: 100vh;
+     background-repeat: no-repeat;
+     background-color: rgba(0, 0, 0, 0.5);
+     background-blend-mode: darken;
+ }
+
+ .menu img {
+     position: relative;
+     height: 24%;
+     width: 24%;
+     top: 10%;
+     left: 30%;
+ }
+
+ .menu h1 {
+     color: white;
+     padding-left: 38%;
+     margin-top: 18%;
+     font-size: 130%;
+     margin-bottom: 0%;
+ }
+
+ .menu_scroll {
+     overflow: scroll;
+     height: 80vh;
+     overflow-x: hidden;
+ }
+
+ span {
+     color: red;
+     font-size: 70%;
+
+ }
+
+ .menu_items {
+     background-color: black;
+     padding-left: 5%;
+ }
+
+ .menu_items p {
+     color: white;
+     font-size: 90%;
+ }
+
+ .menu_items h1 {
+     color: white;
+     font-size: 130%;
+ }
+
+ .menu_items h3 {
+     color: white;
+ }
+
+ .menu_items h4 {
+     color: white;
+ }
+
+ .menu_items img {
+     width: 13%;
+ }
+
+ .breakfast {
+     display: flex;
+     gap: 45%;
+     margin-bottom: 3%;
+ }
+
+ .big_breakfast {
+     display: flex;
+     gap: 7%;
+ }
+
+ .hash_browns {
+     display: flex;
+     gap: 7%;
+ }
+
+ .crepe {
+     display: flex;
+     gap: 7%;
+     margin-bottom: 7%;
+ }
+
+ .soup {
+     display: flex;
+     gap: 15%;
+     margin-bottom: 2%;
+     margin-top: 1%;
+ }
+
+ .thai_beef {
+     display: flex;
+     gap: 7%;
+     margin-top: 1%;
+ }
+
+ .cobb_salad {
+     display: flex;
+     gap: 7%;
+     margin-bottom: 5%;
+ }
+
+ .grilled_steak {
+     display: flex;
+     margin-top: 2%;
+     gap: 7%;
+ }
+
+ .spicy_bbq {
+     display: flex;
+     gap: 7%;
+ }
+
+ .grilled_chicken {
+     display: flex;
+     gap: 7%;
+     margin-bottom: 6%;
+ }
+
+ .thai_basil {
+     display: flex;
+     gap: 7%;
+ }
+
+ .grilled_paneer {
+     display: flex;
+     gap: 7%;
+ }
+
+ .chicken_bacon {
+     display: flex;
+     gap: 7%;
+     margin-bottom: 5%;
+ }
+
+ .fries {
+     display: flex;
+     gap: 46%;
+     margin-bottom: 3%;
+     margin-top: 1%;
+ }
+
+ .milkshakes {
+     display: flex;
+     gap: 35%;
+     margin-bottom: 3%;
+ }
+
+ .yoghurt {
+     display: flex;
+     gap: 27%;
+     margin-bottom: 3%;
+ }
+
+ .ankole_dawa {
+     display: flex;
+     gap: 6%;
+ }
+
+ .hibiscus {
+     display: flex;
+     gap: 5.8%;
+ }
+
+ .boss_lady {
+     display: flex;
+     gap: 5.9%;
+ }
+
+
+
+ /* reservation */
+ .reservation_body {
+     display: flex;
+     overflow: hidden;
+     overflow-x: hidden;
+     margin: 0%;
+ }
+
+ .karibu_reservation {
+     background-image: url(https://t3.ftcdn.net/jpg/13/49/09/50/360_F_1349095048_lFCZvvvzkWdoRtDiQSj8dS8enMJhBKkE.jpg);
+     background-size: cover;
+     width: 80%;
+     height: 100vh;
+     background-repeat: no-repeat;
+     background-color: rgba(0, 0, 0, 0.5);
+     background-blend-mode: darken;
+ }
+
+ .karibu_reservation h1 {
+     color: white;
+     text-align: center;
+     margin-top: 8%;
+     font-size: 200%;
+     padding-left: 2%;
+ }
+
+ .karibu_reservation span {
+     color: red;
+     font-size: 160%;
+     font-weight: 100;
+ }
+
+ .karibu_reservation img {
+     height: 30%;
+     width: 20%;
+     position: relative;
+     left: 40%;
+     bottom: -1%;
+ }
+
+ form {
+     height: 100vh;
+     width: 80%;
+     overflow-x: hidden;
+     overflow-y: scroll;
+ }
+
+ .reservation_form {
+     overflow: auto;
+     overflow: scroll;
+     color: white;
+     background-color: black;
+     width: 100%;
+     height: 100vh;
+     padding-left: 7%;
+     padding-top: 5%;
+     margin-right: 15vh;
+     padding-top: 13%;
+
+
+ }
+
+ form input {
+     width: 95vh;
+     height: 5%;
+     margin-top: 1%;
+     margin-bottom: 2%;
+     background-color: black;
+     color: white;
+     border: 1px solid rgb(148, 141, 141);
+     font-size: 100%;
+ }
+
+ form label {
+     font-size: 100%;
+
+ }
+
+ form button {
+     width: 96vh;
+     height: 8%;
+     font-size: 100%;
+     border-radius: 2vh;
+     background-color: rgb(251, 235, 208);
+     margin-bottom: 20%;
+ }
+
+ form button:hover {
+     background-color: rgb(175, 130, 53);
+ }
+
+ /* live */
+ .live_body {
+     display: flex;
+     gap: 80%;
+     background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c4760165c03d467b650bcb_1.jpg);
+     color: white;
+     width: 55%;
+     background-size: cover;
+     height: 134vh;
+     background-repeat: no-repeat;
+ }
+
+ .tukatike_live span {
+     color: red;
+     font-size: 300%;
+ }
+
+ .tukatike_live img {
+     position: relative;
+     left: 80%;
+     bottom: -5%;
+
+ }
+
+ .tukatike_live h1 {
+     padding-left: 108%;
+     font-size: 250%;
+     position: relative;
+     top: -16%;
+ }
+
+ .music {
+     display: flex;
+     margin-bottom: 10%;
+     gap: 5%;
+ }
+
+ .music img {
+     height: 35vh;
+     width: 40vh;
+ }
+
+ .text p {
+     color: red;
+     font-size: 150%;
+ }
+
+ .text h6 {
+     font-weight: 300;
+     font-size: 200%;
+     margin-top: 2%;
+ }
+
+ /* events */
+ .events_body {
+     display: flex;
+     margin: 0%;
+ }
+
+ .events_body h1 {
+     color: white;
+ }
+
+ .events_body span {
+     color: burlywood;
+     font-size: 100%;
+     font-weight: bolder;
+
+ }
+
+ .events_body p {
+     color: white;
+     font-size: 90%;
+     font-weight: bold;
+ }
+
+ .accra {
+     background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65d4a8fe2b90d2cc28fd4a80_accra.jpg);
+     height: 463px;
+     width: 33.3%;
+     background-size: cover;
+     background-repeat: no-repeat;
+     text-align: center;
+     padding-top: 14%;
+     background-color: rgba(0, 0, 0, 0.5);
+     background-blend-mode: darken;
+ }
+
+ .nairobi {
+     background-image: url(https://images.adsttc.com/media/images/65f3/a7ff/ddef/cf68/80ed/0b56/medium_jpg/tree-house-casalvolone-arquitectura_4.jpg?1710467115);
+     width: 33.3%;
+     background-size: cover;
+     height: 673px;
+     background-repeat: no-repeat;
+     text-align: center;
+     background-color: rgba(0, 0, 0, 0.5);
+     background-blend-mode: darken;
+ }
+
+ .nairobi img {
+     height: 30%;
+     width: 30%;
+     position: relative;
+     top: -1%;
+ }
+
+ .addis {
+     background-image: url(https://partyslate.imgix.net/photos/2038594/photo-3361f11e-a36e-469f-8775-c968f754759d.jpg?ixlib=js-2.3.2&auto=compress,format&bg=fff&cs=srgb);
+     width: 33.4%;
+     background-size: cover;
+     height: 463px;
+     background-repeat: no-repeat;
+     text-align: center;
+     padding-top: 14%;
+     background-color: rgba(0, 0, 0, 0.5);
+     background-blend-mode: darken;
+ }
+
+ .pavillion {
+     color: grey;
+ }
+
+ @media screen and (max-width: 500px) {
+
+     .home_page {
+         font-family: poppins;
+         margin: 0%;
+     }
+
+     .slide_container {
+         position: relative;
+         max-width: 100%;
+         height: 100%;
+     }
+
+     .ankara_art {
+         position: absolute;
+         width: 100%;
+         height: 100%;
+         opacity: 0;
+         animation: fade 25s infinite ease-in-out;
+     }
+
+     .ankara_art:nth-child(1) {
+         animation-delay: 0s;
+
+     }
+
+     .ankara_art:nth-child(2) {
+         animation-delay: 5s;
+     }
+
+     .ankara_art:nth-child(3) {
+         animation-delay: 10s;
+     }
+
+     .ankara_art:nth-child(4) {
+         animation-delay: 15s;
+     }
+
+     .ankara_art:nth-child(5) {
+         animation-delay: 20s;
+     }
+
+     .ankara_art img {
+         width: 100vw;
+         height: 99vh;
+         object-fit: cover;
+         overflow: hidden;
+     }
+
+     @keyframes fade {
+         0% {
+             opacity: 0;
+         }
+
+         10% {
+             opacity: 1;
+         }
+
+         30% {
+             opacity: 1;
+         }
+
+         40% {
+             opacity: 0;
+         }
+
+         100% {
+             opacity: 0;
+         }
+     }
+
+     .welcome {
+         position: absolute;
+         color: rgb(105, 101, 101);
+         font-size: 250%;
+         top: 25vh;
+         left: 41%;
+     }
+
+     .experience {
+         position: absolute;
+         color: rgb(105, 101, 101);
+         font-size: 250%;
+         top: 25vh;
+         left: 39%;
+     }
+
+     .taste{
+         position: absolute;
+         color: rgb(105, 101, 101);
+         font-size: 250%;
+         top: 28vh;
+         left: 45%;
+     }
+
+     .discover {
+         position: absolute;
+         color: rgb(105, 101, 101);
+         font-size: 250%;
+         top: 25vh;
+         left: 43%;
+     }
+
+     .savour {
+         position: absolute;
+         color: rgb(105, 101, 101);
+         font-size: 250%;
+         top: 25vh;
+         left: 43%;
+     }
+
+     .navigation {
+         position: absolute;
+         left: 1%;
+         display: flex;
+         gap: 3%;
+         font-size: 50%;
+         top: 730px;
+         width: 59%;
+         background-color: black;
+         border: 1px solid white;
+         margin-left: 10%;
+         height: 30px;
+         padding-top: 3%;
+         border-radius: 50px;
+     }
+
+     .navigation a {
+         text-decoration: none;
+         color: white;
+     }
+
+     .fa-bars {
+         color: gray;
+     }
+
+     .fa-clock {
+         color: gray;
+     }
+
+     #reservation {
+         background-color: grey;
+         height: 1vh;
+         padding-top: 1%;
+         border-radius: 10px;
+         margin-top: -1%;
+
+     }
+
+     #home {
+         background-color: rgb(19, 18, 18);
+         height: 3vh;
+         padding: 1%;
+         border-radius: 15px;
+         margin-top: -1%;
+
+
+     }
+
+     .time {
+         position: relative;
+         display: inline-block;
+     }
+
+     .time_drop {
+         display: none;
+         position: absolute;
+         background-color: white;
+         width: 600%;
+         height: 540%;
+         top: -630%;
+         padding-left: 6vh;
+         padding-right: 20vh;
+         border-radius: 3vh;
+         padding-top: 2vh;
+     }
+
+     .time_drop p {
+         font-size: 70%;
+     }
+
+     .time_drop h3 {
+         font-size: 100%;
+     }
+
+     .time_drop span {
+         color: black;
+     }
+
+     .time:hover .time_drop {
+         display: block;
+     }
+
+     .ankole_logo img {
+         position: absolute;
+         z-index: 1;
+         width: 10vw;
+         height: 22vh;
+         left: 45%;
+         padding-top: 2%;
+     }
+
+     .bars {
+         position: relative;
+         display: inline-block;
+     }
+
+     .bars_drop {
+         position: absolute;
+         display: none;
+         color: white;
+         background-color: black;
+         width: 800%;
+         top: -370%;
+         padding-left: 5vh;
+         padding-right: 5vh;
+         border-radius: 2vh;
+         z-index: 1;
+     }
+
+     .bars:hover .bars_drop {
+         display: block;
+     }
+
+     .bars_drop p {
+         border-bottom: 1px solid gray;
+     }
+
+     .socials {
+         position: absolute;
+
+
+     }
+
+     .fa-instagram {
+         color: red;
+
+     }
+
+     .fa-facebook {
+         color: red;
+     }
+
+     /* contacts */
+     .contact_body {
+         margin: 0%;
+
+     }
+
+     .background img {
+         position: relative;
+         height: 20vh;
+         width: 20vh;
+         left: 23%;
+         color: grey;
+         padding-top: 10%;
+     }
+
+     .restaurant_branches {
+         display: flex;
+         flex-direction: column;
+         margin-left: 0%;
+     }
+
+     .kilimani {
+         border: 1px solid white;
+         padding-top: 1%;
+         width: 70%;
+         margin-left: 3%;
+         padding-right: 10%;
+         font-size: 70%;
+         font-weight: 900%;
+         color: white;
+         font-family: sans-serif;
+         font-weight: bolder;
+         padding-bottom: 3%;
+         height: 80%;
+     }
+
+     .kitisuru {
+         border: 1px solid white;
+         padding-top: 1%;
+         margin-left: 3%;
+         padding-right: 10%;
+         font-size: 70%;
+         font-weight: bolder;
+         color: white;
+         font-family: sans-serif;
+         height: 60%;
+         width: 70%;
+         padding-bottom: 3%;
+         margin-bottom: 7%;
+     }
+
+     .background {
+         background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/66a76f14c410437afe19cec1_ankolegrill_Kitisuru%20Night2.webp);
+         height: 800px;
+         width: 90%;
+         background-size: cover;
+         background-color: rgba(0, 0, 0, 0.5);
+         background-blend-mode: darken;
+     }
+
+     /* menu */
+     .menu_body {
+         margin: 0%;
+     }
+
+     .explore_menu {
+         display: flex;
+         flex-direction: column;
+     }
+
+     .karibu_kitisuru {
+         background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c300769e92e351d540231f_bg.jpg);
+         background-repeat: no-repeat;
+         width: 100%;
+         background-size: cover;
+         height: 335px;
+         background-color: rgba(0, 0, 0, 0.5);
+         background-blend-mode: darken;
+         padding-top: 18.55%;
+     }
+
+     .karibu_kitisuru span {
+         color: red;
+         font-size: 90%;
+     }
+
+     .karibu_kitisuru h6 {
+         font-size: 160%;
+         color: white;
+         padding-left: 34%;
+         margin-bottom: 5%;
+     }
+
+     .karibu_kitisuru a {
+         font-size: 110%;
+         color: white;
+         text-decoration: none;
+         padding-left: 34%;
+
+     }
+
+     .dicover_kilimani {
+         background-image: url(https://www.apexbusinesspages.com/wp-content/uploads/2019/03/Ankole-Grill-Kilimani.jpg);
+         width: 100%;
+         background-size: cover;
+         height: 435px;
+         background-repeat: no-repeat;
+         background-color: rgba(0, 0, 0, 0.5);
+         background-blend-mode: darken;
+         padding-top: 18.55%;
+     }
+
+     .ankara_logo {
+         position: absolute;
+         top: -8%;
+         left: 25%;
+         height: 35%;
+         width: 35%;
+     }
+
+     .dicover_kilimani span {
+         color: red;
+         font-size: 90%;
+     }
+
+     .dicover_kilimani h6 {
+         font-size: 160%;
+         color: white;
+         padding-left: 30%;
+         margin-bottom: 3%;
+
+     }
+
+     .dicover_kilimani a {
+         font-size: 110%;
+         color: white;
+         text-decoration: none;
+         padding-left: 30%;
+     }
+
+     .aesthetic_ankara {
+         position: relative;
+     }
+
+     /* menu_contents */
+     .menu_contents {
+         margin: 0%;
+
+     }
+
+     .menu_container {
+         display: flex;
+         flex-direction: column;
+     }
+
+     .menu span {
+         color: red;
+         font-size: 6vh;
+         padding-left: 33%;
+     }
+
+     .meals a {
+         text-decoration: none;
+         color: white;
+     }
+
+     .meals {
+         margin-bottom: 18%;
+         margin-top: 2%;
+         display: flex;
+         gap: 5%;
+         margin-left: 15%;
+     }
+
+
+     .menu {
+         background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm2ne7oExPeuUzxvPnw3tM5wIgY5mymemId23-q7fCF-vT3ifw);
+         background-size: cover;
+         width: 100%;
+         height: 50vh;
+         background-repeat: no-repeat;
+         background-color: rgba(0, 0, 0, 0.5);
+         background-blend-mode: darken;
+     }
+
+     .menu img {
+         position: relative;
+         height: 24%;
+         width: 24%;
+         top: 10%;
+         left: 30%;
+     }
+
+     .menu h1 {
+         color: white;
+         padding-left: 38%;
+         margin-top: 18%;
+         font-size: 130%;
+         margin-bottom: 0%;
+     }
+
+     .menu_scroll {
+         overflow: scroll;
+         height: 80vh;
+         overflow-x: hidden;
+     }
+
+     span {
+         color: red;
+         font-size: 70%;
+
+     }
+
+     .menu_items {
+         background-color: black;
+         padding-left: 5%;
+     }
+
+     .menu_items p {
+         color: white;
+         font-size: 90%;
+     }
+
+     .menu_items h1 {
+         color: white;
+         font-size: 130%;
+     }
+
+     .menu_items h3 {
+         color: white;
+     }
+
+     .menu_items h4 {
+         color: white;
+     }
+
+     .menu_items img {
+         width: 13%;
+     }
+
+     .breakfast {
+         display: flex;
+         gap: 45%;
+         margin-bottom: 3%;
+     }
+
+     .big_breakfast {
+         display: flex;
+         gap: 7%;
+     }
+
+     .hash_browns {
+         display: flex;
+         gap: 7%;
+     }
+
+     .crepe {
+         display: flex;
+         gap: 7%;
+         margin-bottom: 7%;
+     }
+
+     .soup {
+         display: flex;
+         gap: 15%;
+         margin-bottom: 2%;
+         margin-top: 1%;
+     }
+
+     .thai_beef {
+         display: flex;
+         gap: 7%;
+         margin-top: 1%;
+     }
+
+     .cobb_salad {
+         display: flex;
+         gap: 7%;
+         margin-bottom: 5%;
+     }
+
+     .grilled_steak {
+         display: flex;
+         margin-top: 2%;
+         gap: 7%;
+     }
+
+     .spicy_bbq {
+         display: flex;
+         gap: 7%;
+     }
+
+     .grilled_chicken {
+         display: flex;
+         gap: 7%;
+         margin-bottom: 6%;
+     }
+
+     .thai_basil {
+         display: flex;
+         gap: 7%;
+     }
+
+     .grilled_paneer {
+         display: flex;
+         gap: 7%;
+     }
+
+     .chicken_bacon {
+         display: flex;
+         gap: 7%;
+         margin-bottom: 5%;
+     }
+
+     .fries {
+         display: flex;
+         gap: 46%;
+         margin-bottom: 3%;
+         margin-top: 1%;
+     }
+
+     .milkshakes {
+         display: flex;
+         gap: 35%;
+         margin-bottom: 3%;
+     }
+
+     .yoghurt {
+         display: flex;
+         gap: 27%;
+         margin-bottom: 3%;
+     }
+
+     .ankole_dawa {
+         display: flex;
+         gap: 6%;
+     }
+
+     .hibiscus {
+         display: flex;
+         gap: 5.8%;
+     }
+
+     .boss_lady {
+         display: flex;
+         gap: 5.9%;
+     }
+
+
+
+     /* reservation */
+     .reservation_body {
+         display: flex;
+         flex-direction: column;
+         overflow: scroll;
+         overflow-x: hidden;
+         margin: 0%;
+     }
+
+     .karibu_reservation {
+         background-image: url(https://t3.ftcdn.net/jpg/13/49/09/50/360_F_1349095048_lFCZvvvzkWdoRtDiQSj8dS8enMJhBKkE.jpg);
+         background-size: cover;
+         width: 90%;
+         height: 50vh;
+         background-repeat: no-repeat;
+         background-color: rgba(0, 0, 0, 0.5);
+         background-blend-mode: darken;
+     }
+
+     .karibu_reservation h1 {
+         color: white;
+         text-align: center;
+         margin-top: 8%;
+         font-size: 200%;
+         padding-left: 2%;
+     }
+
+     .karibu_reservation span {
+         color: red;
+         font-size: 160%;
+         font-weight: 100;
+     }
+
+     .karibu_reservation img {
+         height: 50%;
+         width: 50%;
+         position: relative;
+         left: 30%;
+         bottom: -1%;
+     }
+
+     form {
+         height: 100vh;
+         width: 100%;
+         overflow-x: hidden;
+         overflow-y: scroll;
+     }
+
+     .reservation_form {
+         overflow: auto;
+         overflow: scroll;
+         color: white;
+         background-color: black;
+         width: 90%;
+         height: 100vh;
+         padding-left: 7%;
+         padding-top: 5%;
+         margin-right: 15vh;
+         padding-top: 13%;
+
+
+     }
+
+     form input {
+         width: 35vh;
+         height: 5%;
+         margin-top: 1%;
+         margin-bottom: 2%;
+         background-color: black;
+         color: white;
+         border: 1px solid rgb(148, 141, 141);
+         font-size: 100%;
+     }
+
+     form label {
+         font-size: 100%;
+
+     }
+
+     form button {
+         width: 37vh;
+         height: 8%;
+         font-size: 100%;
+         border-radius: 2vh;
+         background-color: rgb(251, 235, 208);
+         margin-bottom: 2%;
+     }
+
+     form button:hover {
+         background-color: rgb(175, 130, 53);
+     }
+
+     /* live */
+     .live_body {
+         display: flex;
+         gap: 80%;
+         background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c4760165c03d467b650bcb_1.jpg);
+         color: white;
+         width: 55%;
+         background-size: cover;
+         height: 134vh;
+         background-repeat: no-repeat;
+     }
+
+     .tukatike_live span {
+         color: red;
+         font-size: 300%;
+     }
+
+     .tukatike_live img {
+         position: relative;
+         left: 80%;
+         bottom: -5%;
+
+     }
+
+     .tukatike_live h1 {
+         padding-left: 108%;
+         font-size: 250%;
+         position: relative;
+         top: -16%;
+     }
+
+     .music {
+         display: flex;
+         margin-bottom: 10%;
+         gap: 5%;
+     }
+
+     .music img {
+         height: 35vh;
+         width: 40vh;
+     }
+
+     .text p {
+         color: red;
+         font-size: 150%;
+     }
+
+     .text h6 {
+         font-weight: 300;
+         font-size: 200%;
+         margin-top: 2%;
+     }
+
+     /* events */
+     .events_body {
+         display: flex;
+         flex-direction: column;
+         margin: 0%;
+         overflow-x: hidden;
+     }
+
+     .events_body h1 {
+         color: white;
+     }
+
+     .events_body span {
+         color: burlywood;
+         font-size: 100%;
+         font-weight: bolder;
+
+     }
+
+     .events_body p {
+         color: white;
+         font-size: 90%;
+         font-weight: bold;
+     }
+
+     .accra {
+         background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65d4a8fe2b90d2cc28fd4a80_accra.jpg);
+         height: 463px;
+         width: 100%;
+         background-size: cover;
+         background-repeat: no-repeat;
+         text-align: center;
+         padding-top: 14%;
+         background-color: rgba(0, 0, 0, 0.5);
+         background-blend-mode: darken;
+     }
+
+     .nairobi {
+         background-image: url(https://images.adsttc.com/media/images/65f3/a7ff/ddef/cf68/80ed/0b56/medium_jpg/tree-house-casalvolone-arquitectura_4.jpg?1710467115);
+         width: 100%;
+         background-size: cover;
+         height: 673px;
+         background-repeat: no-repeat;
+         text-align: center;
+         background-color: rgba(0, 0, 0, 0.5);
+         background-blend-mode: darken;
+     }
+
+     .nairobi img {
+         height: 30%;
+         width: 30%;
+         position: relative;
+         top: -5%;
+         left: 32%;
+         position: fixed;
+     }
+
+     .addis {
+         background-image: url(https://partyslate.imgix.net/photos/2038594/photo-3361f11e-a36e-469f-8775-c968f754759d.jpg?ixlib=js-2.3.2&auto=compress,format&bg=fff&cs=srgb);
+         width: 100%;
+         background-size: cover;
+         height: 463px;
+         background-repeat: no-repeat;
+         text-align: center;
+         padding-top: 14%;
+         background-color: rgba(0, 0, 0, 0.5);
+         background-blend-mode: darken;
+     }
+
+     .pavillion {
+         color: grey;
+     }
+
+
+
+ }
+
+ @media screen and (min-width: 501px) and (max-width:1000px) {
+    .home_page {
+        font-family: poppins;
+        margin: 0%;
+    }
+   
+    .slide_container {
+        position: relative;
+        max-width: 100%;
+        height: 100%;
+    }
+   
+    .ankara_art {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        animation: fade 20s infinite ease-in-out;
+    }
+   
+    .ankara_art:nth-child(1) {
+        animation-delay: 2s;
+    }
+   
+    .ankara_art:nth-child(2) {
+        animation-delay: 5s;
+    }
+   
+    .ankara_art:nth-child(3) {
+        animation-delay: 10s;
+    }
+   
+    .ankara_art:nth-child(4) {
+        animation-delay: 15s;
+    }
+   
+    .ankara_art:nth-child(5) {
+        animation-delay: 20s;
+    }
+   
+    .ankara_art img {
+        width: 100vw;
+        height: 99vh;
+        object-fit: cover;
+        overflow: hidden;
+    }
+   
+    @keyframes fade {
+        0% {
+            opacity: 0;
+        }
+   
+        10% {
+            opacity: 1;
+        }
+   
+        30% {
+            opacity: 1;
+        }
+   
+        40% {
+            opacity: 0;
+        }
+   
+        100% {
+            opacity: 0;
+        }
+    }
+   
+   
+    .welcome {
+        position: absolute;
+        color: rgb(105, 101, 101);
+        font-size: 250%;
+        top: 25vh;
+        left: 41%;
+    }
+   
+    .experience {
+        position: absolute;
+        color: rgb(105, 101, 101);
+        font-size: 250%;
+        top: 25vh;
+        left: 39%;
+    }
+   
+    .taste {
+        position: absolute;
+        color: rgb(105, 101, 101);
+        font-size: 250%;
+        top: 28vh;
+        left: 45%;
+    }
+   
+    .savour{
+        position: absolute;
+        color: rgb(105, 101, 101);
+        font-size: 250%;
+        top: 25vh;
+        left: 43%;
+    }
+   
+    .discover {
+        position: absolute;
+        color: rgb(105, 101, 101);
+        font-size: 250%;
+        top: 25vh;
+        left: 43%;
+    }
+   
+    .navigation {
+        position: absolute;
+        left: 29%;
+        display: flex;
+        gap: 4%;
+        font-size: 100%;
+        top: 1200px;
+        width: 60%;
+        background-color: rgb(8, 8, 8);
+        padding-left: 2%;
+        height: 40px;
+        padding-top: 1%;
+        border-radius: 50px;
+       margin-left: -90px;
+    }
+   
+    .navigation a {
+        text-decoration: none;
+        color: white;
+    }
+   
+    .fa-bars {
+        color: gray;
+    }
+   
+    .fa-clock {
+        color: gray;
+    }
+   
+    #reservation {
+        background-color: grey;
+        height: 1vh;
+        padding: 1%;
+        border-radius: 100px;
+        margin-top: 0.2%;
+   
+    }
+   
+    #home {
+        background-color: rgb(19, 18, 18);
+        height: 1.7vh;
+        padding: 1%;
+        border-radius: 15px;
+        margin-top: -1%;
+   
+   
+    }
+   
+    .time {
+        position: relative;
+        display: inline-block;
+    }
+   
+    .time_drop {
+        display: none;
+        position: absolute;
+        background-color: white;
+        width: 600%;
+        height: 540%;
+        top: -630%;
+        padding-left: 6vh;
+        padding-right: 20vh;
+        border-radius: 3vh;
+        padding-top: 2vh;
+    }
+   
+    .time_drop p {
+        font-size: 70%;
+    }
+   
+    .time_drop h3 {
+        font-size: 100%;
+    }
+   
+    .time_drop span {
+        color: black;
+    }
+   
+    .time:hover .time_drop {
+        display: block;
+    }
+   
+    .ankole_logo img {
+        position: absolute;
+        z-index: 1;
+        width: 10vw;
+        height: 22vh;
+        left: 45%;
+        padding-top: 2%;
+    }
+   
+    .bars {
+        position: relative;
+        display: inline-block;
+    }
+   
+    .bars_drop {
+        position: absolute;
+        display: none;
+        color: white;
+        background-color: black;
+        width: 800%;
+        top: -370%;
+        padding-left: 5vh;
+        padding-right: 5vh;
+        border-radius: 2vh;
+        z-index: 1;
+    }
+   
+    .bars:hover .bars_drop {
+        display: block;
+    }
+   
+    .bars_drop p {
+        border-bottom: 1px solid gray;
+    }
+   
+    .socials {
+        position: absolute;
+   
+   
+    }
+   
+    .fa-instagram {
+        color: red;
+   
+    }
+   
+    .fa-facebook {
+        color: red;
+    }
+   
+    /* contacts */
+    .contact_body {
+        margin: 0%;
+   
+    }
+   
+    .background img {
+        position: relative;
+        height: 18vh;
+        width: 18vh;
+        left: 35%;
+        color: grey;
+        padding-top: 5%;
+    }
+   
+    .restaurant_branches {
+        display: flex;
+        gap: 2%;
+        margin-left: 18%;
+        margin-top: 29%;
+    }
+   
+    .kilimani {
+        border: 1px solid white;
+        padding-top: 1%;
+        padding-left: 3%;
+        padding-right: 10%;
+        font-size: 80%;
+        font-weight: 900%;
+        color: white;
+        font-family: sans-serif;
+        font-weight: bolder;
+        padding-bottom: 3%;
+       
+    }
+   
+    .kitisuru {
+        border: 1px solid white;
+        padding-top: 2%;
+        padding-left: 3%;
+        padding-right: 10%;
+        font-size: 80%;
+        font-weight: bolder;
+        color: white;
+        font-family: sans-serif;
+        height: 70%;
+        padding-bottom: 3%;
+    }
+   
+    .background {
+        background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/66a76f14c410437afe19cec1_ankolegrill_Kitisuru%20Night2.webp);
+        height: 1306px;
+        width: 100%;
+        background-size: cover;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+    }
+   
+    /* menu */
+    .menu_body {
+        margin: 0%;
+    }
+   
+    .explore_menu {
+        display: flex;
+    }
+   
+    .karibu_kitisuru {
+        background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c300769e92e351d540231f_bg.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover;
+        height: 1145px;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+        padding-top: 18.55%;
+    }
+   
+    .karibu_kitisuru span {
+        color: red;
+        font-size: 70%;
+    }
+   
+    .karibu_kitisuru h6 {
+        font-size: 250%;
+        color: white;
+        padding-left: 35%;
+        margin-bottom: 2%;
+        padding-top: 70%;
+    }
+   
+    .karibu_kitisuru a {
+        font-size: 90%;
+        color: white;
+        text-decoration: none;
+        padding-left: 38%;
+   
+    }
+   
+    .dicover_kilimani {
+        background-image: url(https://www.apexbusinesspages.com/wp-content/uploads/2019/03/Ankole-Grill-Kilimani.jpg);
+        width: 100%;
+        background-size: cover;
+        height: 1145px;
+        background-repeat: no-repeat;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+        padding-top: 18.55%;
+    }
+   
+    .ankara_logo {
+        position: absolute;
+        top: 1%;
+        left: 38%;
+        height: 23%;
+        width: 23%;
+    }
+   
+    .dicover_kilimani span {
+        color: red;
+        font-size: 70%;
+    }
+   
+    .dicover_kilimani h6 {
+        font-size: 250%;
+        color: white;
+        padding-left: 40%;
+        margin-bottom: 20%;
+        padding-top: 70%;
+    }
+   
+    .dicover_kilimani a {
+        font-size: 90%;
+        color: white;
+        text-decoration: none;
+        padding-left: 42%;
+    }
+   
+    .aesthetic_ankara {
+        position: relative;
+    }
+   
+    /* menu_contents */
+    .menu_contents {
+        margin: 0%;
+   
+    }
+   
+    .menu_container {
+        display: flex;
+    }
+   
+    .menu span {
+        color: red;
+        font-size: 5vh;
+        padding-left: 25%;
+    }
+   
+    .meals a {
+        text-decoration: none;
+        color: white;
+    }
+   
+    .meals {
+        margin-bottom: 18%;
+        margin-top: 2%;
+        display: flex;
+        gap: 5%;
+        margin-left: 15%;
+    }
+   
+   
+    .menu {
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm2ne7oExPeuUzxvPnw3tM5wIgY5mymemId23-q7fCF-vT3ifw);
+        background-size: cover;
+        width: 80%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+    }
+   
+    .menu img {
+        position: relative;
+        height: 40%;
+        width: 40%;
+        top: -10%;
+        left: 30%;
+    }
+   
+    .menu h1 {
+        color: white;
+        padding-left: 38%;
+        margin-top: 18%;
+        font-size: 130%;
+        margin-bottom: 0%;
+    }
+   
+    .menu_scroll {
+        overflow: scroll;
+        height: 91vh;
+        overflow-x: hidden;
+    }
+   
+    span {
+        color: red;
+        font-size: 70%;
+   
+    }
+   
+    .menu_items {
+        background-color: black;
+        padding-left: 5%;
+    }
+   
+    .menu_items p {
+        color: white;
+        font-size: 90%;
+    }
+   
+    .menu_items h1 {
+        color: white;
+        font-size: 130%;
+    }
+   
+    .menu_items h3 {
+        color: white;
+    }
+   
+    .menu_items h4 {
+        color: white;
+    }
+   
+    .menu_items img {
+        width: 13%;
+    }
+   
+    .breakfast {
+        display: flex;
+        gap: 45%;
+        margin-bottom: 3%;
+    }
+   
+    .big_breakfast {
+        display: flex;
+        gap: 7%;
+    }
+   
+    .hash_browns {
+        display: flex;
+        gap: 7%;
+    }
+   
+    .crepe {
+        display: flex;
+        gap: 7%;
+        margin-bottom: 7%;
+    }
+   
+    .soup {
+        display: flex;
+        gap: 15%;
+        margin-bottom: 2%;
+        margin-top: 1%;
+    }
+   
+    .thai_beef {
+        display: flex;
+        gap: 7%;
+        margin-top: 1%;
+    }
+   
+    .cobb_salad {
+        display: flex;
+        gap: 7%;
+        margin-bottom: 5%;
+    }
+   
+    .grilled_steak {
+        display: flex;
+        margin-top: 2%;
+        gap: 7%;
+    }
+   
+    .spicy_bbq {
+        display: flex;
+        gap: 7%;
+    }
+   
+    .grilled_chicken {
+        display: flex;
+        gap: 7%;
+        margin-bottom: 6%;
+    }
+   
+    .thai_basil {
+        display: flex;
+        gap: 7%;
+    }
+   
+    .grilled_paneer {
+        display: flex;
+        gap: 7%;
+    }
+   
+    .chicken_bacon {
+        display: flex;
+        gap: 7%;
+        margin-bottom: 5%;
+    }
+   
+    .fries {
+        display: flex;
+        gap: 46%;
+        margin-bottom: 3%;
+        margin-top: 1%;
+    }
+   
+    .milkshakes {
+        display: flex;
+        gap: 35%;
+        margin-bottom: 3%;
+    }
+   
+    .yoghurt {
+        display: flex;
+        gap: 27%;
+        margin-bottom: 3%;
+    }
+   
+    .ankole_dawa {
+        display: flex;
+        gap: 6%;
+    }
+   
+    .hibiscus {
+        display: flex;
+        gap: 5.8%;
+    }
+   
+    .boss_lady {
+        display: flex;
+        gap: 5.9%;
+    }
+   
+   
+   
+    /* reservation */
+    .reservation_body {
+        display: flex;
+        overflow: hidden;
+        overflow-x: hidden;
+        margin: 0%;
+    }
+   
+    .karibu_reservation {
+        background-image: url(https://t3.ftcdn.net/jpg/13/49/09/50/360_F_1349095048_lFCZvvvzkWdoRtDiQSj8dS8enMJhBKkE.jpg);
+        background-size: cover;
+        width: 80%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+    }
+   
+    .karibu_reservation h1 {
+        color: white;
+        text-align: center;
+        margin-top: -15%;
+        font-size: 200%;
+        padding-left: 2%;
+    }
+   
+    .karibu_reservation span {
+        color: red;
+        font-size: 160%;
+        font-weight: 100;
+    }
+   
+    .karibu_reservation img {
+        height: 50%;
+        width: 40%;
+        position: relative;
+        left: 25%;
+        bottom: 13%;
+    }
+   
+    form {
+        height: 100vh;
+        width: 80%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+   
+    .reservation_form {
+        overflow: auto;
+        overflow: scroll;
+        color: white;
+        background-color: black;
+        width: 100%;
+        height: 100vh;
+        padding-left: 7%;
+        padding-top: 3%;
+        margin-right: 15vh;
+        padding-top: 13%;
+   
+   
+    }
+   
+    form input {
+        width: 29vh;
+        height: 3%;
+        margin-top: 1%;
+        margin-bottom: 2%;
+        background-color: black;
+        color: white;
+        border: 1px solid rgb(148, 141, 141);
+        font-size: 100%;
+    }
+   
+    form label {
+        font-size: 100%;
+   
+    }
+   
+    form button {
+        width: 30vh;
+        height: 4%;
+        font-size: 100%;
+        border-radius: 1vh;
+        background-color: rgb(251, 235, 208);
+        margin-bottom: 20%;
+    }
+   
+    form button:hover {
+        background-color: rgb(175, 130, 53);
+    }
+   
+    /* live */
+    .live_body {
+        display: flex;
+        gap: 80%;
+        background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c4760165c03d467b650bcb_1.jpg);
+        color: white;
+        width: 55%;
+        background-size: cover;
+        height: 134vh;
+        background-repeat: no-repeat;
+    }
+   
+    .tukatike_live span {
+        color: red;
+        font-size: 300%;
+    }
+   
+    .tukatike_live img {
+        position: relative;
+        left: 80%;
+        bottom: -5%;
+   
+    }
+   
+    .tukatike_live h1 {
+        padding-left: 108%;
+        font-size: 250%;
+        position: relative;
+        top: -16%;
+    }
+   
+    .music {
+        display: flex;
+        margin-bottom: 10%;
+        gap: 5%;
+    }
+   
+    .music img {
+        height: 35vh;
+        width: 40vh;
+    }
+   
+    .text p {
+        color: red;
+        font-size: 150%;
+    }
+   
+    .text h6 {
+        font-weight: 300;
+        font-size: 200%;
+        margin-top: 2%;
+    }
+   
+    /* events */
+    .events_body {
+        display: flex;
+        margin: 0%;
+    }
+   
+    .events_body h1 {
+        color: white;
+        padding-top: 120%;
+    }
+   
+    .events_body span {
+        color: burlywood;
+        font-size: 100%;
+        font-weight: bolder;
+   
+    }
+   
+    .events_body p {
+        color: white;
+        font-size: 90%;
+        font-weight: bold;
+    }
+   
+    .accra {
+        background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65d4a8fe2b90d2cc28fd4a80_accra.jpg);
+        height: 1185px;
+        width: 33.3%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding-top: 14%;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+    }
+   
+    .nairobi {
+        background-image: url(https://images.adsttc.com/media/images/65f3/a7ff/ddef/cf68/80ed/0b56/medium_jpg/tree-house-casalvolone-arquitectura_4.jpg?1710467115);
+        width: 33.3%;
+        background-size: cover;
+        height: 1310px;
+        background-repeat: no-repeat;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+    }
+   
+    .nairobi img {
+        height: 25%;
+        width: 25%;
+        position: absolute;
+        top: -1%;
+        left: 35%;
+    }
+   
+    .addis {
+        background-image: url(https://partyslate.imgix.net/photos/2038594/photo-3361f11e-a36e-469f-8775-c968f754759d.jpg?ixlib=js-2.3.2&auto=compress,format&bg=fff&cs=srgb);
+        width: 33.4%;
+        background-size: cover;
+        height: 1185px;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding-top: 14%;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+    }
+   
+    .pavillion {
+        color: grey;
+    }
+   
+
+
+
+}

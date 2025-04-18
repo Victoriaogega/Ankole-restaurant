@@ -1,0 +1,515 @@
+
+@font-face {
+    font-family: american;
+    src: url(Type\ Machine.ttf);
+}
+body {
+    display: flex;
+    gap: 80%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://img.freepik.com/free-photo/young-adults-playing-percussion-instruments-music-festival-generated-by-ai_24640-82003.jpg);
+    color: white;
+    width: 55%;
+    background-size: cover;
+    height: 150vh;
+    background-repeat: no-repeat;
+}
+
+.tukatike_live span {
+    color: red;
+    font-size: 150%;
+    
+}
+.live_schedule{
+margin-top: 12%;
+
+}
+
+.tukatike_live img {
+    position: relative;
+    left: 250%;
+    bottom: -1.9%;
+    height: 14%;
+}
+
+.tukatike_live h1 {
+    padding-left: 265%;
+    font-size: 170%;
+  padding-top: 90%;
+    font-family: american;
+    font-weight: 100;
+}
+
+.music {
+    display: flex;
+    margin-bottom: 5%;
+    gap: 4%;
+}
+
+.music img {
+    height: 39vh;
+    width: 17vw;
+    border-radius: 1vh;
+    transition: 0.5s ease-out;
+    overflow: scroll;
+}
+.music img:hover{
+    transform: scale(1.1);
+}
+
+.text span {
+    color: red;
+    font-size:69%;
+}
+
+.text{
+    font-weight: 100%;
+    font-size: 120%;
+    color: white;
+    width: 28vw;
+    height: 16vh;
+    margin-top: 10%;
+    font-family: american;
+   
+}
+.navigation {
+    position: absolute;
+    left: 15vh;
+    display: flex;
+    gap: 4%;
+    font-size: 100%;
+    top: 580px;
+    width: 39%;
+    background-color: black;
+    padding-left: 2%;
+    height: 40px;
+    padding-top: 1%;
+    border-radius: 50px;
+    position: fixed;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+.fa-bars {
+    color: gray;
+}
+
+.fa-clock {
+    color: gray;
+}
+
+#reservation {
+    background-color: grey;
+    height: 3vh;
+    padding: 1%;
+    border-radius: 100px;
+    margin-top: -1%;
+
+}
+
+#home {
+    background-color: rgb(19, 18, 18);
+    height: 3vh;
+    padding: 1%;
+    border-radius: 15px;
+    margin-top: -1%;
+
+
+}
+
+.time {
+    position: relative;
+    display: inline-block;
+}
+
+.time_drop {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 600%;
+    height: 540%;
+    top: -630%;
+    padding-left: 6vh;
+    padding-right: 20vh;
+    border-radius: 3vh;
+    padding-top: 2vh;
+}
+
+.time_drop p {
+    font-size: 70%;
+}
+
+.time_drop h3 {
+    font-size: 100%;
+}
+
+.time_drop span {
+    color: black;
+}
+
+.time:hover .time_drop {
+    display: block;
+}
+
+.ankole_logo img {
+    position: absolute;
+    z-index: 1;
+    width: 10vw;
+    height: 22vh;
+    left: 45%;
+    padding-top: 2%;
+}
+
+.bars {
+    position: relative;
+    display: inline-block;
+}
+
+.bars_drop {
+    position: absolute;
+    display: none;
+    color: white;
+    background-color: black;
+    width: 800%;
+    top: -370%;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    border-radius: 2vh;
+    z-index: 1;
+}
+
+.bars:hover .bars_drop {
+    display: block;
+}
+
+.bars_drop p {
+    border-bottom: 1px solid gray;
+}
+
+@media screen and (max-width: 500px) {
+    
+    .live_body {
+        display: flex;
+        gap: 80%;
+        background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c4760165c03d467b650bcb_1.jpg);
+        color: white;
+        width: 55%;
+        background-size: cover;
+        height: 134vh;
+        background-repeat: no-repeat;
+    }
+
+    .tukatike_live span {
+        color: red;
+        font-size: 300%;
+    }
+
+    .tukatike_live img {
+        position: relative;
+        left: 80%;
+        bottom: -5%;
+
+    }
+
+    .tukatike_live h1 {
+        padding-left: 108%;
+        font-size: 250%;
+        position: relative;
+        top: -16%;
+    }
+
+    .music {
+        display: flex;
+        margin-bottom: 10%;
+        gap: 5%;
+    }
+
+    .music img {
+        height: 35vh;
+        width: 40vh;
+    }
+
+    .text p {
+        color: red;
+        font-size: 150%;
+    }
+
+    .text h6 {
+        font-weight: 300;
+        font-size: 200%;
+        margin-top: 2%;
+    }
+    .navigation {
+        position: absolute;
+        left: 1%;
+        display: flex;
+        gap: 3%;
+        font-size: 50%;
+        top: 730px;
+        width: 59%;
+        background-color: black;
+        border: 1px solid white;
+        margin-left: 10%;
+        height: 30px;
+        padding-top: 3%;
+        border-radius: 50px;
+    }
+
+    .navigation a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .fa-bars {
+        color: gray;
+    }
+
+    .fa-clock {
+        color: gray;
+    }
+
+    #reservation {
+        background-color: grey;
+        height: 1vh;
+        padding-top: 1%;
+        border-radius: 10px;
+        margin-top: -1%;
+
+    }
+
+    #home {
+        background-color: rgb(19, 18, 18);
+        height: 3vh;
+        padding: 1%;
+        border-radius: 15px;
+        margin-top: -1%;
+
+
+    }
+
+    .time {
+        position: relative;
+        display: inline-block;
+    }
+
+    .time_drop {
+        display: none;
+        position: absolute;
+        background-color: white;
+        width: 600%;
+        height: 540%;
+        top: -630%;
+        padding-left: 6vh;
+        padding-right: 20vh;
+        border-radius: 3vh;
+        padding-top: 2vh;
+    }
+
+    .time_drop p {
+        font-size: 70%;
+    }
+
+    .time_drop h3 {
+        font-size: 100%;
+    }
+
+    .time_drop span {
+        color: black;
+    }
+
+    .time:hover .time_drop {
+        display: block;
+    }
+
+
+    .bars {
+        position: relative;
+        display: inline-block;
+    }
+
+    .bars_drop {
+        position: absolute;
+        display: none;
+        color: white;
+        background-color: black;
+        width: 800%;
+        top: -370%;
+        padding-left: 5vh;
+        padding-right: 5vh;
+        border-radius: 2vh;
+        z-index: 1;
+    }
+
+    .bars:hover .bars_drop {
+        display: block;
+    }
+
+    .bars_drop p {
+        border-bottom: 1px solid gray;
+    }
+
+
+}
+@media screen and (min-width: 501px) and (max-width:1000px){
+    .live_body {
+        display: flex;
+        gap: 80%;
+        background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c4760165c03d467b650bcb_1.jpg);
+        color: white;
+        width: 55%;
+        background-size: cover;
+        height: 134vh;
+        background-repeat: no-repeat;
+    }
+   
+    .tukatike_live span {
+        color: red;
+        font-size: 300%;
+    }
+   
+    .tukatike_live img {
+        position: relative;
+        left: 80%;
+        bottom: -5%;
+   
+    }
+   
+    .tukatike_live h1 {
+        padding-left: 108%;
+        font-size: 250%;
+        position: relative;
+        top: -16%;
+    }
+   
+    .music {
+        display: flex;
+        margin-bottom: 10%;
+        gap: 5%;
+    }
+   
+    .music img {
+        height: 35vh;
+        width: 40vh;
+    }
+   
+    .text p {
+        color: red;
+        font-size: 150%;
+    }
+   
+    .text h6 {
+        font-weight: 300;
+        font-size: 200%;
+        margin-top: 2%;
+    }
+    
+    .navigation {
+        position: absolute;
+        left: 29%;
+        display: flex;
+        gap: 4%;
+        font-size: 100%;
+        top: 1200px;
+        width: 60%;
+        background-color: rgb(8, 8, 8);
+        padding-left: 2%;
+        height: 40px;
+        padding-top: 1%;
+        border-radius: 50px;
+       margin-left: -90px;
+    }
+   
+    .navigation a {
+        text-decoration: none;
+        color: white;
+    }
+   
+    .fa-bars {
+        color: gray;
+    }
+   
+    .fa-clock {
+        color: gray;
+    }
+   
+    #reservation {
+        background-color: grey;
+        height: 1vh;
+        padding: 1%;
+        border-radius: 100px;
+        margin-top: 0.2%;
+   
+    }
+   
+    #home {
+        background-color: rgb(19, 18, 18);
+        height: 1.7vh;
+        padding: 1%;
+        border-radius: 15px;
+        margin-top: -1%;
+   
+   
+    }
+   
+    .time {
+        position: relative;
+        display: inline-block;
+    }
+   
+    .time_drop {
+        display: none;
+        position: absolute;
+        background-color: white;
+        width: 600%;
+        height: 540%;
+        top: -630%;
+        padding-left: 6vh;
+        padding-right: 20vh;
+        border-radius: 3vh;
+        padding-top: 2vh;
+    }
+   
+    .time_drop p {
+        font-size: 70%;
+    }
+   
+    .time_drop h3 {
+        font-size: 100%;
+    }
+   
+    .time_drop span {
+        color: black;
+    }
+   
+    .time:hover .time_drop {
+        display: block;
+    }
+   
+    .bars {
+        position: relative;
+        display: inline-block;
+    }
+   
+    .bars_drop {
+        position: absolute;
+        display: none;
+        color: white;
+        background-color: black;
+        width: 800%;
+        top: -370%;
+        padding-left: 5vh;
+        padding-right: 5vh;
+        border-radius: 2vh;
+        z-index: 1;
+    }
+   
+    .bars:hover .bars_drop {
+        display: block;
+    }
+   
+    .bars_drop p {
+        border-bottom: 1px solid gray;
+    }
+}

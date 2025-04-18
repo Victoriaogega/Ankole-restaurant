@@ -1,0 +1,562 @@
+@font-face {
+    font-family: american;
+    src: url(Type\ Machine.ttf);
+}
+body {
+    display: flex;
+    margin: 0%;
+}
+body h6{
+    color: rgb(130, 123, 123);
+    font-size: 70%;
+}
+
+body h1 {
+    color: white;
+    font-family: american;
+    font-weight: 100;
+}
+body span {
+    color: rgb( 242, 210, 133);
+    font-size: 80%;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+body p {
+    color: white;
+    font-size: 70%;
+    font-weight: 100;
+    font-weight: 90%;
+    font-family: sans-serif;
+}
+
+
+.accra {
+    background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65d4a8fe2b90d2cc28fd4a80_accra.jpg);
+    height: 463px;
+    width: 33.3%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 14%;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    line-height: 1rem;
+}
+
+.nairobi {
+    background-image: url(https://images.adsttc.com/media/images/65f3/a7ff/ddef/cf68/80ed/0b56/medium_jpg/tree-house-casalvolone-arquitectura_4.jpg?1710467115);
+    width: 33.3%;
+    background-size: cover;
+    height: 673px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    line-height: 1rem;
+}
+
+.nairobi img {
+    height: 30%;
+    width: 30%;
+    position: relative;
+    top: -1%;
+}
+
+.addis {
+    background-image: url(https://partyslate.imgix.net/photos/2038594/photo-3361f11e-a36e-469f-8775-c968f754759d.jpg?ixlib=js-2.3.2&auto=compress,format&bg=fff&cs=srgb);
+    width: 33.4%;
+    background-size: cover;
+    height: 463px;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 14%;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    line-height: 1rem;
+}
+
+.pavillion {
+    color: grey;
+}
+.navigation {
+    position: absolute;
+    left: 32.5%;
+    display: flex;
+    gap: 3%;
+    font-size: 95%;
+    top: 580px;
+    width: 33%;
+    background-color: black;
+    padding-left: 2%;
+    height: 40px;
+    padding-top: 1%;
+    border-radius: 50px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+.fa-bars {
+    color: gray;
+}
+
+.fa-clock {
+    color: gray;
+}
+
+#reservation {
+    background-color: grey;
+    height: 3vh;
+    padding: 1%;
+    border-radius: 100px;
+    margin-top: -1%;
+
+}
+
+#home {
+    background-color: rgb(19, 18, 18);
+    height: 3vh;
+    padding: 1%;
+    border-radius: 15px;
+    margin-top: -1%;
+
+
+}
+
+.time {
+    position: relative;
+    display: inline-block;
+}
+
+.time_drop {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 600%;
+    height: 540%;
+    top: -630%;
+    padding-left: 6vh;
+    padding-right: 20vh;
+    border-radius: 3vh;
+    padding-top: 2vh;
+}
+
+.time_drop p {
+    font-size: 70%;
+}
+
+.time_drop h3 {
+    font-size: 100%;
+}
+
+.time_drop span {
+    color: black;
+}
+
+.time:hover .time_drop {
+    display: block;
+}
+
+.ankole_logo img {
+    position: absolute;
+    z-index: 1;
+    width: 10vw;
+    height: 22vh;
+    left: 45%;
+    padding-top: 2%;
+}
+
+.bars {
+    position: relative;
+    display: inline-block;
+}
+
+.bars_drop {
+    position: absolute;
+    display: none;
+    color: white;
+    background-color: black;
+    width: 800%;
+    top: -370%;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    border-radius: 2vh;
+    z-index: 1;
+}
+
+.bars:hover .bars_drop {
+    display: block;
+}
+
+.bars_drop p {
+    border-bottom: 1px solid gray;
+}
+
+@media screen and (max-width: 500px) {
+
+    .events_body {
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        overflow-x: hidden;
+    }
+
+    .events_body h1 {
+        color: white;
+    }
+
+    .events_body span {
+        color: burlywood;
+        font-size: 100%;
+        font-weight: bolder;
+
+    }
+
+    .events_body p {
+        color: white;
+        font-size: 90%;
+        font-weight: bold;
+    }
+
+    .accra {
+        background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65d4a8fe2b90d2cc28fd4a80_accra.jpg);
+        height: 463px;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding-top: 14%;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+    }
+
+    .nairobi {
+        background-image: url(https://images.adsttc.com/media/images/65f3/a7ff/ddef/cf68/80ed/0b56/medium_jpg/tree-house-casalvolone-arquitectura_4.jpg?1710467115);
+        width: 100%;
+        background-size: cover;
+        height: 673px;
+        background-repeat: no-repeat;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+    }
+
+    .nairobi img {
+        height: 30%;
+        width: 30%;
+        position: relative;
+        top: -5%;
+        left: 32%;
+        position: fixed;
+    }
+
+    .addis {
+        background-image: url(https://partyslate.imgix.net/photos/2038594/photo-3361f11e-a36e-469f-8775-c968f754759d.jpg?ixlib=js-2.3.2&auto=compress,format&bg=fff&cs=srgb);
+        width: 100%;
+        background-size: cover;
+        height: 463px;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding-top: 14%;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+    }
+
+    .pavillion {
+        color: grey;
+    }
+    .navigation {
+        position: absolute;
+        left: 1%;
+        display: flex;
+        gap: 3%;
+        font-size: 50%;
+        top: 730px;
+        width: 59%;
+        background-color: black;
+        border: 1px solid white;
+        margin-left: 10%;
+        height: 30px;
+        padding-top: 3%;
+        border-radius: 50px;
+    }
+
+    .navigation a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .fa-bars {
+        color: gray;
+    }
+
+    .fa-clock {
+        color: gray;
+    }
+
+    #reservation {
+        background-color: grey;
+        height: 1vh;
+        padding-top: 1%;
+        border-radius: 10px;
+        margin-top: -1%;
+
+    }
+
+    #home {
+        background-color: rgb(19, 18, 18);
+        height: 3vh;
+        padding: 1%;
+        border-radius: 15px;
+        margin-top: -1%;
+
+
+    }
+
+    .time {
+        position: relative;
+        display: inline-block;
+    }
+
+    .time_drop {
+        display: none;
+        position: absolute;
+        background-color: white;
+        width: 600%;
+        height: 540%;
+        top: -630%;
+        padding-left: 6vh;
+        padding-right: 20vh;
+        border-radius: 3vh;
+        padding-top: 2vh;
+    }
+
+    .time_drop p {
+        font-size: 70%;
+    }
+
+    .time_drop h3 {
+        font-size: 100%;
+    }
+
+    .time_drop span {
+        color: black;
+    }
+
+    .time:hover .time_drop {
+        display: block;
+    }
+
+
+    .bars {
+        position: relative;
+        display: inline-block;
+    }
+
+    .bars_drop {
+        position: absolute;
+        display: none;
+        color: white;
+        background-color: black;
+        width: 800%;
+        top: -370%;
+        padding-left: 5vh;
+        padding-right: 5vh;
+        border-radius: 2vh;
+        z-index: 1;
+    }
+
+    .bars:hover .bars_drop {
+        display: block;
+    }
+
+    .bars_drop p {
+        border-bottom: 1px solid gray;
+    }
+
+
+}
+
+@media screen and (min-width: 501px) and (max-width:1000px) {
+    .events_body {
+        display: flex;
+        margin: 0%;
+    }
+
+    .events_body h1 {
+        color: white;
+        padding-top: 120%;
+    }
+
+    .events_body span {
+        color: burlywood;
+        font-size: 100%;
+        font-weight: bolder;
+
+    }
+
+    .events_body p {
+        color: white;
+        font-size: 90%;
+        font-weight: bold;
+    }
+
+    .accra {
+        background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65d4a8fe2b90d2cc28fd4a80_accra.jpg);
+        height: 1185px;
+        width: 33.3%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding-top: 14%;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+    }
+
+    .nairobi {
+        background-image: url(https://images.adsttc.com/media/images/65f3/a7ff/ddef/cf68/80ed/0b56/medium_jpg/tree-house-casalvolone-arquitectura_4.jpg?1710467115);
+        width: 33.3%;
+        background-size: cover;
+        height: 1310px;
+        background-repeat: no-repeat;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+    }
+
+    .nairobi img {
+        height: 25%;
+        width: 25%;
+        position: absolute;
+        top: -1%;
+        left: 35%;
+    }
+
+    .addis {
+        background-image: url(https://partyslate.imgix.net/photos/2038594/photo-3361f11e-a36e-469f-8775-c968f754759d.jpg?ixlib=js-2.3.2&auto=compress,format&bg=fff&cs=srgb);
+        width: 33.4%;
+        background-size: cover;
+        height: 1185px;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding-top: 14%;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+    }
+
+    .pavillion {
+        color: grey;
+    }
+    .navigation {
+        position: absolute;
+        left: 29%;
+        display: flex;
+        gap: 4%;
+        font-size: 100%;
+        top: 1200px;
+        width: 60%;
+        background-color: rgb(8, 8, 8);
+        padding-left: 2%;
+        height: 40px;
+        padding-top: 1%;
+        border-radius: 50px;
+       margin-left: -90px;
+    }
+   
+    .navigation a {
+        text-decoration: none;
+        color: white;
+    }
+   
+    .fa-bars {
+        color: gray;
+    }
+   
+    .fa-clock {
+        color: gray;
+    }
+   
+    #reservation {
+        background-color: grey;
+        height: 1vh;
+        padding: 1%;
+        border-radius: 100px;
+        margin-top: 0.2%;
+   
+    }
+   
+    #home {
+        background-color: rgb(19, 18, 18);
+        height: 1.7vh;
+        padding: 1%;
+        border-radius: 15px;
+        margin-top: -1%;
+   
+   
+    }
+   
+    .time {
+        position: relative;
+        display: inline-block;
+    }
+   
+    .time_drop {
+        display: none;
+        position: absolute;
+        background-color: white;
+        width: 600%;
+        height: 540%;
+        top: -630%;
+        padding-left: 6vh;
+        padding-right: 20vh;
+        border-radius: 3vh;
+        padding-top: 2vh;
+    }
+   
+    .time_drop p {
+        font-size: 70%;
+    }
+   
+    .time_drop h3 {
+        font-size: 100%;
+    }
+   
+    .time_drop span {
+        color: black;
+    }
+   
+    .time:hover .time_drop {
+        display: block;
+    }
+   
+    .bars {
+        position: relative;
+        display: inline-block;
+    }
+   
+    .bars_drop {
+        position: absolute;
+        display: none;
+        color: white;
+        background-color: black;
+        width: 800%;
+        top: -370%;
+        padding-left: 5vh;
+        padding-right: 5vh;
+        border-radius: 2vh;
+        z-index: 1;
+    }
+   
+    .bars:hover .bars_drop {
+        display: block;
+    }
+   
+    .bars_drop p {
+        border-bottom: 1px solid gray;
+    }
+
+}

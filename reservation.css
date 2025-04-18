@@ -1,0 +1,660 @@
+@font-face {
+    font-family: jmh;
+    src: url(JMH\ Typewriter.ttf);
+}
+.reservation_body {
+    display: flex;
+    overflow: hidden;
+    overflow-x: hidden;
+    margin: 0%;
+}
+
+.karibu_reservation {
+    background-image: url(https://t3.ftcdn.net/jpg/13/49/09/50/360_F_1349095048_lFCZvvvzkWdoRtDiQSj8dS8enMJhBKkE.jpg);
+    background-size: cover;
+    width: 80%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+
+.karibu_reservation h1 {
+    color: white;
+    text-align: center;
+    margin-top: 8%;
+    font-size: 160%;
+    font-family: jmh;
+    font-weight: 100;
+}
+
+.karibu_reservation span {
+    color: red;
+    font-size: 160%;
+    font-weight: 100;
+    font-family: jmh;
+}
+
+.karibu_reservation img {
+    height: 30%;
+    width: 20%;
+    position: relative;
+    left: 40%;
+    bottom: -1%;
+}
+
+form {
+    height: 100vh;
+    width: 80%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.reservation_form {
+    overflow: auto;
+    overflow: scroll;
+    overflow-x: hidden;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    padding-left: 7%;
+    margin-right: 15vh;
+    padding-top: 13%;
+
+}
+
+form input {
+    width: 95vh;
+    height: 5%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(148, 141, 141);
+    font-size: 70%;
+    font-family: jmh;
+}
+
+form label {
+    font-size: 60%;
+    font-family: jmh;
+}
+#location{
+    border: 2px solid white;
+}
+form button {
+    width: 96vh;
+    height: 8%;
+    font-size: 70%;
+    border-radius: 2vh;
+    background-color: rgb(229, 205, 163);
+    margin-bottom: 20%;
+    font-family: jmh;
+}
+
+form button:hover {
+    background-color: rgb(175, 130, 53);
+}
+.navigation {
+    position: absolute;
+    left: 29%;
+    display: flex;
+    gap: 4%;
+    font-size: 90%;
+    top: 580px;
+    width: 39%;
+    background-color: black;
+    padding-left: 2%;
+    height: 40px;
+    padding-top: 1%;
+    border-radius: 50px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+.fa-bars {
+    color: gray;
+}
+
+.fa-clock {
+    color: gray;
+}
+
+#reservation {
+    background-color: grey;
+    height: 3vh;
+    padding: 1%;
+    border-radius: 100px;
+    margin-top: -1%;
+
+}
+
+#home {
+    background-color: rgb(19, 18, 18);
+    height: 3vh;
+    padding: 1%;
+    border-radius: 15px;
+    margin-top: -1%;
+
+
+}
+
+.time {
+    position: relative;
+    display: inline-block;
+}
+
+.time_drop {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 600%;
+    height: 540%;
+    top: -630%;
+    padding-left: 6vh;
+    padding-right: 20vh;
+    border-radius: 3vh;
+    padding-top: 2vh;
+}
+
+.time_drop p {
+    font-size: 70%;
+}
+
+.time_drop h3 {
+    font-size: 100%;
+}
+
+.time_drop span {
+    color: black;
+}
+
+.time:hover .time_drop {
+    display: block;
+}
+
+.ankole_logo img {
+    position: absolute;
+    z-index: 1;
+    width: 10vw;
+    height: 22vh;
+    left: 45%;
+    padding-top: 2%;
+}
+
+
+.bars {
+    position: relative;
+    display: inline-block;
+}
+
+.bars_drop {
+    position: absolute;
+    display: none;
+    color: white;
+    background-color: black;
+    width: 800%;
+    top: -370%;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    border-radius: 2vh;
+    z-index: 1;
+}
+
+.bars:hover .bars_drop {
+    display: block;
+}
+
+.bars_drop p {
+    border-bottom: 1px solid gray;
+}
+
+
+@media screen and (max-width: 500px) {
+    
+    .reservation_body {
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+        overflow-x: hidden;
+        margin: 0%;
+    }
+
+    .karibu_reservation {
+        background-image: url(https://t3.ftcdn.net/jpg/13/49/09/50/360_F_1349095048_lFCZvvvzkWdoRtDiQSj8dS8enMJhBKkE.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 63vh;
+        background-repeat: no-repeat;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+    }
+
+    .karibu_reservation h1 {
+        color: white;
+        text-align: center;
+        margin-top:-39%;
+        font-size: 150%;
+        padding-left:5%;
+    }
+
+    .karibu_reservation span {
+        color: red;
+        font-size: 100%;
+        font-weight: 100;
+       
+    }
+    #location{
+        border: 2px solid white;
+    }
+
+    .karibu_reservation img {
+        height: 60%;
+        width: 70%;
+        position: relative;
+        left: 15%;
+        bottom: -1%;
+    }
+
+    form {
+        height: 100vh;
+        width: 100%;
+        overflow-x: hidden;
+        overflow: scroll;
+        overflow-y: hidden;
+    }
+
+    .reservation_form {
+        overflow: auto;
+        overflow: scroll;
+        color: white;
+        background-color: black;
+        width: 90%;
+        height: 100vh;
+        padding-left: 7%;
+        padding-top: 5%;
+        margin-right: 15vh;
+        padding-top: 13%;
+
+
+    }
+
+    form input {
+        width: 35vh;
+        height: 5%;
+        margin-top: 1%;
+        margin-bottom: 2%;
+        background-color: black;
+        color: white;
+        border: 1px solid rgb(148, 141, 141);
+        font-size: 70%;
+    }
+
+    form label {
+        font-size: 70%;
+
+    }
+
+    form button {
+        width: 37vh;
+        height: 8%;
+        font-size: 100%;
+        border-radius: 2vh;
+        background-color: rgb(251, 235, 208);
+        margin-bottom: 2%;
+    }
+
+    form button:hover {
+        background-color: rgb(175, 130, 53);
+    }
+    .navigation {
+        position: absolute;
+        left: 1%;
+        display: flex;
+        gap: 3.5vh;
+        font-size: 70%;
+        top: 590px;
+        width: 47%;
+        background-color: rgb(29, 25, 25);
+        border: rgb(47, 45, 45);
+        margin-left: 10%;
+        height: 39px;
+        padding-top: 3%;
+        border-radius: 50px;
+        position: fixed;
+    }
+    .fa-bars{
+        font-size: 4vh;
+    }
+    .fa-clock{
+        font-size: 4vh;
+    }
+    #home{
+        display: none;
+    }
+    #menu{
+        display: none;   
+    }
+    #reviews{
+        display: none;
+    }
+    #events{
+        display: none;
+    }
+    #live{
+        display: none;
+    }
+    #contacts{
+        display: none;
+    }
+
+
+    .navigation a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .fa-bars {
+        color: gray;
+    }
+
+    .fa-clock {
+        color: gray;
+    }
+
+    #reservation {
+        background-color: grey;
+        border: none;
+        height: 3vh;
+        padding-top: 3%;
+        border-radius: 10px;
+        padding: 2%;
+        margin-top: -1%;
+        font-size: 2vh;
+
+    }
+
+    #home {
+        background-color: rgb(19, 18, 18);
+        height: 3vh;
+        padding: 1%;
+        border-radius: 15px;
+        margin-top: -1%;
+
+
+    }
+
+    .time {
+        position: relative;
+        display: inline-block;
+    }
+
+    .time_drop {
+        display: none;
+        position: absolute;
+        background-color: white;
+        width: 600%;
+        height: 540%;
+        top: -630%;
+        padding-left: 6vh;
+        padding-right: 20vh;
+        border-radius: 3vh;
+        padding-top: 2vh;
+    }
+
+    .time_drop p {
+        font-size: 70%;
+    }
+
+    .time_drop h3 {
+        font-size: 100%;
+    }
+
+    .time_drop span {
+        color: black;
+    }
+
+    .time:hover .time_drop {
+        display: block;
+    }
+
+
+    .bars {
+        position: relative;
+        display: inline-block;
+    }
+
+    .bars_drop {
+        position: absolute;
+        display: none;
+        color: white;
+        background-color: black;
+        width: 800%;
+        top: -370%;
+        padding-left: 5vh;
+        padding-right: 5vh;
+        border-radius: 2vh;
+        z-index: 1;
+    }
+
+    .bars:hover .bars_drop {
+        display: block;
+    }
+
+    .bars_drop p {
+        border-bottom: 1px solid gray;
+    }
+
+}
+@media screen and (min-width: 501px) and (max-width:1000px){
+
+    .reservation_body {
+        display: flex;
+        overflow: hidden;
+        overflow-x: hidden;
+        margin: 0%;
+    }
+   
+    .karibu_reservation {
+        background-image: url(https://t3.ftcdn.net/jpg/13/49/09/50/360_F_1349095048_lFCZvvvzkWdoRtDiQSj8dS8enMJhBKkE.jpg);
+        background-size: cover;
+        width: 80%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+    }
+   
+    .karibu_reservation h1 {
+        color: white;
+        text-align: center;
+        margin-top: -15%;
+        font-size: 200%;
+        padding-left: 2%;
+    }
+    #location{
+        border: 2px solid white;
+    }
+    #location :focus{
+        border-color: blue;
+        outline-color: blue;
+    }
+   
+    .karibu_reservation span {
+        color: red;
+        font-size: 160%;
+        font-weight: 100;
+    }
+   
+    .karibu_reservation img {
+        height: 50%;
+        width: 40%;
+        position: relative;
+        left: 25%;
+        bottom: 13%;
+    }
+   
+    form {
+        height: 100vh;
+        width: 80%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+   
+    .reservation_form {
+        overflow: auto;
+        overflow: scroll;
+        color: white;
+        background-color: black;
+        width: 100%;
+        height: 100vh;
+        padding-left: 7%;
+        padding-top: 3%;
+        margin-right: 15vh;
+        padding-top: 13%;
+   
+   
+    }
+   
+    form input {
+        width: 29vh;
+        height: 3%;
+        margin-top: 1%;
+        margin-bottom: 2%;
+        background-color: black;
+        color: white;
+        border: 1px solid rgb(148, 141, 141);
+        font-size: 100%;
+    }
+   
+    form label {
+        font-size: 100%;
+   
+    }
+   
+    form button {
+        width: 30vh;
+        height: 4%;
+        font-size: 100%;
+        border-radius: 1vh;
+        background-color: rgb(252, 230, 192);
+        margin-bottom: 20%;
+    }
+   
+    form button:hover {
+        background-color: rgb(243, 230, 209);
+    }
+    .navigation {
+        position: absolute;
+        left: 29%;
+        display: flex;
+        gap: 4%;
+        font-size: 100%;
+        top: 1200px;
+        width: 60%;
+        background-color: rgb(8, 8, 8);
+        padding-left: 2%;
+        height: 40px;
+        padding-top: 1%;
+        border-radius: 50px;
+       margin-left: -90px;
+    }
+   
+    .navigation a {
+        text-decoration: none;
+        color: white;
+    }
+   
+    .fa-bars {
+        color: gray;
+    }
+   
+    .fa-clock {
+        color: gray;
+    }
+   
+    #reservation {
+        background-color: grey;
+        height: 1vh;
+        padding: 1%;
+        border-radius: 100px;
+        margin-top: 0.2%;
+   
+    }
+   
+    #home {
+        background-color: rgb(19, 18, 18);
+        height: 1.7vh;
+        padding: 1%;
+        border-radius: 15px;
+        margin-top: -1%;
+   
+   
+    }
+   
+    .time {
+        position: relative;
+        display: inline-block;
+    }
+   
+    .time_drop {
+        display: none;
+        position: absolute;
+        background-color: white;
+        width: 600%;
+        height: 540%;
+        top: -630%;
+        padding-left: 6vh;
+        padding-right: 20vh;
+        border-radius: 3vh;
+        padding-top: 2vh;
+    }
+   
+    .time_drop p {
+        font-size: 70%;
+    }
+   
+    .time_drop h3 {
+        font-size: 100%;
+    }
+   
+    .time_drop span {
+        color: black;
+    }
+   
+    .time:hover .time_drop {
+        display: block;
+    }
+   
+    .bars {
+        position: relative;
+        display: inline-block;
+    }
+   
+    .bars_drop {
+        position: absolute;
+        display: none;
+        color: white;
+        background-color: black;
+        width: 800%;
+        top: -370%;
+        padding-left: 5vh;
+        padding-right: 5vh;
+        border-radius: 2vh;
+        z-index: 1;
+    }
+   
+    .bars:hover .bars_drop {
+        display: block;
+    }
+   
+    .bars_drop p {
+        border-bottom: 1px solid gray;
+    }
+    
+
+}
