@@ -2,6 +2,20 @@
     margin: 0%;
 
 }
+.fa-whatsapp {
+    position: absolute;
+    color: grey;
+    top: 83vh;
+     left: 90%; 
+     font-size: 190%;
+ border: 1px solid white;
+ height: 6vh;
+ width: 3vw;
+ border-radius: 5vh;
+ background-color: black;
+ text-align: center;
+ padding-top: 2px;
+  }
 
 .menu_container {
     display: flex;

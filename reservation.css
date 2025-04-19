@@ -212,6 +212,20 @@ form button:hover {
 .bars_drop p {
     border-bottom: 1px solid gray;
 }
+.fa-whatsapp {
+    position: absolute;
+    color: grey;
+    top: 83vh;
+     left: 90%; 
+     font-size: 190%;
+ border: 1px solid white;
+ width: 2vw;
+ border-radius: 5vh;
+ background-color: black;
+ text-align: center;
+ padding: 10px;
+  }
+
 
 
 @media screen and (max-width: 500px) {
