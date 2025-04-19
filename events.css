@@ -225,25 +225,25 @@ body p {
 
 @media screen and (max-width: 500px) {
 
-    .events_body {
+    body {
         display: flex;
         flex-direction: column;
         margin: 0%;
         overflow-x: hidden;
     }
 
-    .events_body h1 {
+body h1 {
         color: white;
     }
 
-    .events_body span {
+    body span {
         color: burlywood;
         font-size: 100%;
         font-weight: bolder;
 
     }
 
-    .events_body p {
+    body p {
         color: white;
         font-size: 90%;
         font-weight: bold;
@@ -298,12 +298,13 @@ body p {
     }
     .navigation {
         position: absolute;
-        left: 1%;
+        left: 5%;
         display: flex;
-        gap: 3%;
+        gap: 9%;
         font-size: 50%;
-        top: 730px;
-        width: 59%;
+        top: 500px;
+        position: fixed;
+        width: 39%;
         background-color: black;
         border: 1px solid white;
         margin-left: 10%;
@@ -327,11 +328,11 @@ body p {
 
     #reservation {
         background-color: grey;
-        height: 1vh;
+        height: 3vh;
         padding-top: 1%;
         border-radius: 10px;
         margin-top: -1%;
-
+font-size: 200%;
     }
 
     #home {
@@ -340,9 +341,15 @@ body p {
         padding: 1%;
         border-radius: 15px;
         margin-top: -1%;
-
+display: none;
 
     }
+    .fa-bars{
+        font-size: 200%;
+    }
+.fa-clock{
+    font-size: 200%;
+}
 
     .time {
         position: relative;
@@ -405,28 +412,71 @@ body p {
         border-bottom: 1px solid gray;
     }
 
-
+    .socials {
+        position: absolute;
+     left: 90%;
+     display: flex;
+     flex-direction: column;
+     gap: 0vh;
+     font-size: 150%;
+     top: 5vh;
+     color: grey;
+      }
+      .socials a{
+         text-decoration: none;
+         color: grey;
+      }
+     
+      .fa-whatsapp {
+        position: absolute;
+        color: grey;
+        top: 70vh;
+         left: 78%; 
+         font-size: 190%;
+     border: 1px solid white;
+     position: fixed;
+     width: 9vw;
+     border-radius: 5vh;
+     background-color: black;
+     text-align: center;
+     padding: 10px;
+      }
+      #reviews{
+        display: none;
+    }
+    #events{
+        display: none;
+    }
+#live{
+    display: none;
+}
+#contacts{
+    display: none;
+}
+#menu{
+    display: none;
+}
 }
 
 @media screen and (min-width: 501px) and (max-width:1000px) {
-    .events_body {
+    body {
         display: flex;
         margin: 0%;
     }
 
-    .events_body h1 {
+    body h1 {
         color: white;
         padding-top: 120%;
     }
 
-    .events_body span {
+    body span {
         color: burlywood;
         font-size: 100%;
         font-weight: bolder;
 
     }
 
-    .events_body p {
+    body p {
         color: white;
         font-size: 90%;
         font-weight: bold;
@@ -434,7 +484,7 @@ body p {
 
     .accra {
         background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65d4a8fe2b90d2cc28fd4a80_accra.jpg);
-        height: 1185px;
+        height: 1180px;
         width: 33.3%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -448,11 +498,12 @@ body p {
         background-image: url(https://images.adsttc.com/media/images/65f3/a7ff/ddef/cf68/80ed/0b56/medium_jpg/tree-house-casalvolone-arquitectura_4.jpg?1710467115);
         width: 33.3%;
         background-size: cover;
-        height: 1310px;
+        height: 1180px;
         background-repeat: no-repeat;
         text-align: center;
         background-color: rgba(0, 0, 0, 0.5);
         background-blend-mode: darken;
+        padding-top: 14%;
     }
 
     .nairobi img {
@@ -467,7 +518,7 @@ body p {
         background-image: url(https://partyslate.imgix.net/photos/2038594/photo-3361f11e-a36e-469f-8775-c968f754759d.jpg?ixlib=js-2.3.2&auto=compress,format&bg=fff&cs=srgb);
         width: 33.4%;
         background-size: cover;
-        height: 1185px;
+        height: 1180px;
         background-repeat: no-repeat;
         text-align: center;
         padding-top: 14%;
@@ -485,13 +536,13 @@ body p {
         gap: 4%;
         font-size: 100%;
         top: 1200px;
-        width: 60%;
+        width: 64%;
         background-color: rgb(8, 8, 8);
         padding-left: 2%;
         height: 40px;
         padding-top: 1%;
         border-radius: 50px;
-       margin-left: -90px;
+       margin-left: -130px;
     }
    
     .navigation a {
@@ -585,5 +636,32 @@ body p {
     .bars_drop p {
         border-bottom: 1px solid gray;
     }
-
+    .socials {
+        position: absolute;
+     left: 90%;
+     display: flex;
+     flex-direction: column;
+     gap: 0vh;
+     font-size: 150%;
+     top: 5vh;
+     color: grey;
+      }
+      .socials a{
+         text-decoration: none;
+         color: grey;
+      }
+     
+      .fa-whatsapp {
+        position: absolute;
+        color: grey;
+        top: 90vh;
+         left: 85%; 
+         font-size: 190%;
+     border: 1px solid white;
+     width: 4vw;
+     border-radius: 5vh;
+     background-color: black;
+     text-align: center;
+     padding: 10px;
+      }
 }

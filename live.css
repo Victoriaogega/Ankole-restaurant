@@ -203,65 +203,86 @@ margin-top: 12%;
 
 @media screen and (max-width: 500px) {
     
-    .live_body {
+    body {
+        
         display: flex;
+        flex-direction: column;
         gap: 80%;
-        background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c4760165c03d467b650bcb_1.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://img.freepik.com/free-photo/young-adults-playing-percussion-instruments-music-festival-generated-by-ai_24640-82003.jpg);
         color: white;
-        width: 55%;
-        background-size: cover;
-        height: 134vh;
+        width: 100px;
+        background-size:cover ;
+        height: 190vh;
         background-repeat: no-repeat;
+        
     }
 
     .tukatike_live span {
         color: red;
-        font-size: 300%;
+        font-size: 150%;
+       position: absolute;
+       top: 20%;
+       left: 85%;
     }
 
     .tukatike_live img {
         position: relative;
-        left: 80%;
+        left: 22%;
         bottom: -5%;
+        height: 40%;
 
     }
 
     .tukatike_live h1 {
-        padding-left: 108%;
+        padding-left: 65%;
         font-size: 250%;
         position: relative;
         top: -16%;
+        color: white;
+    }
+    .live_schedule{
+        position: absolute;
+        top: 50%;
+        left: 20%;
     }
 
     .music {
         display: flex;
+        flex-direction: column;
         margin-bottom: 10%;
-        gap: 5%;
+        gap: 0vw;
+        
     }
 
     .music img {
-        height: 35vh;
-        width: 40vh;
+        height: 25vh;
+        width: 30vh;
+       
+    }
+    .text{
+        width: 80%;
+       margin-top: 0%;
+        
     }
 
     .text p {
-        color: red;
-        font-size: 150%;
+        font-size: 90%;
     }
 
     .text h6 {
         font-weight: 300;
-        font-size: 200%;
+        font-size: 150%;
         margin-top: 2%;
     }
     .navigation {
         position: absolute;
         left: 1%;
         display: flex;
-        gap: 3%;
+        gap: 10%;
         font-size: 50%;
-        top: 730px;
-        width: 59%;
+        top: 480px;
+        position: fixed;
+        width: 32%;
         background-color: black;
         border: 1px solid white;
         margin-left: 10%;
@@ -285,11 +306,11 @@ margin-top: 12%;
 
     #reservation {
         background-color: grey;
-        height: 1vh;
+        height: 2vh;
         padding-top: 1%;
         border-radius: 10px;
         margin-top: -1%;
-
+font-size: 150%;
     }
 
     #home {
@@ -298,10 +319,30 @@ margin-top: 12%;
         padding: 1%;
         border-radius: 15px;
         margin-top: -1%;
-
+display: none;
 
     }
-
+    #reviews{
+        display: none;
+    }
+    #events{
+        display: none;
+    }
+#live{
+    display: none;
+}
+#contacts{
+    display: none;
+}
+#menu{
+    display: none;
+}
+.fa-bars{
+    font-size: 200%;
+}
+.fa-clock{
+font-size: 200%;
+}
     .time {
         position: relative;
         display: inline-block;
@@ -362,6 +403,20 @@ margin-top: 12%;
     .bars_drop p {
         border-bottom: 1px solid gray;
     }
+    .fa-whatsapp {
+        position: fixed;
+        color: grey;
+        top: 63vh;
+         left: 55%; 
+         font-size: 190%;
+         position: fixed;
+     border: 1px solid white;
+     width: 6vw;
+     border-radius: 5vh;
+     background-color: black;
+     text-align: center;
+     padding: 10px;
+      }
 
 
 }
